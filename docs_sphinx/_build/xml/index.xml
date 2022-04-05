@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.1" xml:lang="en-US">
+  <compound refid="namespaceone" kind="namespace"><name>one</name>
+    <member refid="namespace_8cpp_1a83ec783b4b434337aae32fa5a1eaa363" kind="function"><name>location_one</name></member>
+  </compound>
+  <compound refid="namespaceone_1_1two" kind="namespace"><name>one::two</name>
+    <member refid="namespace_8cpp_1a842ac8835af83f25589ee159e52c8dfc" kind="function"><name>location_two</name></member>
+  </compound>
+  <compound refid="namespaceone_1_1two_1_1three" kind="namespace"><name>one::two::three</name>
+    <member refid="namespace_8cpp_1a916ed21c4f3eb13e618759ee14e6ebc2" kind="function"><name>location_three</name></member>
+  </compound>
+  <compound refid="namespace_8cpp" kind="file"><name>namespace.cpp</name>
+  </compound>
+  <compound refid="operations_8cpp" kind="file"><name>operations.cpp</name>
+    <member refid="operations_8cpp_1a9920dc7dca5851780d0f0e43977bbdc8" kind="function"><name>add</name></member>
+    <member refid="operations_8cpp_1a5dff25c0ae84a737bb55b245f86c1973" kind="function"><name>subtract</name></member>
+  </compound>
+  <compound refid="dir_68267d1309a1af8e8297ef4c3efbcdba" kind="dir"><name>/mnt/e/doxy-with-cmake/src</name>
+  </compound>
+</doxygenindex>

@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="namespaceone_1_1two_1_1three" kind="namespace" language="C++">
+    <compoundname>one::two::three</compoundname>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="namespace_8cpp_1a916ed21c4f3eb13e618759ee14e6ebc2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void one::two::three::location_three</definition>
+        <argsstring>()</argsstring>
+        <name>location_three</name>
+        <briefdescription>
+<para>Prints namespace 3. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>void </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/e/doxy-with-cmake/src/namespace.cpp" line="55" column="18" bodyfile="/mnt/e/doxy-with-cmake/src/namespace.cpp" bodystart="55" bodyend="57"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/mnt/e/doxy-with-cmake/src/namespace.cpp" line="50" column="9"/>
+  </compounddef>
+</doxygen>

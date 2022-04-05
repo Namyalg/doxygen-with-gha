@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="namespacetest_1_1work" kind="namespace" language="C++">
+    <compoundname>test::work</compoundname>
+    <innernamespace refid="namespacetest_1_1work_1_1why">test::work::why</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/mnt/e/doxy-with-cmake/src/namespace.cpp" line="44" column="5"/>
+  </compounddef>
+</doxygen>
