@@ -2,4 +2,4 @@ Namespace
 +++++++++
 
 .. doxygenfile:: namespace.cpp
-   :project: addition
+   :project: sample

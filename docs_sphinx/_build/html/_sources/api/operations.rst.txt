@@ -3,4 +3,4 @@ Operations
 ==========
 
 .. doxygenfile:: operations.cpp
-   :project: addition
+   :project: sample
