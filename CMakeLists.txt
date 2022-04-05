@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.18.4)
-project(addition)
+project(sample)
 message("Before adding executable")
 #[[When there is a main and an executable has to be created use this : add_executable(add main.cpp add.cpp)]]
 # add_executable(add main.cpp add.cpp)

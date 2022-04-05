@@ -1,5 +1,5 @@
 
-Welcome to addition's documentation!
+Welcome to the sample documentation!
 ====================================
 
 .. toctree::

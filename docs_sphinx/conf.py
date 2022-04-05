@@ -21,7 +21,7 @@ subprocess.call('doxygen Doxyfile.in', shell=True)
 
 # -- Project information -----------------------------------------------------
 
-project = 'addition'
+project = 'sample'
 copyright = '2020, me'
 author = 'me'
 
@@ -89,7 +89,7 @@ html_static_path = ['_static']
 # -- Breathe configuration -------------------------------------------------
 
 breathe_projects = {
-	"addition": "_build/xml/"
+	"sample": "_build/xml/"
 }
-breathe_default_project = "addition"
+breathe_default_project = "sample"
 breathe_default_members = ('members', 'undoc-members')
