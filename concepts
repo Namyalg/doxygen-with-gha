@@ -1,0 +1,15 @@
+Integrate doxygen with cmake
+such that when there is code change, there is a change in the documentation as well
+
+Separately, doxygen does not have to be invoked for this purpose
+
+Connecting doxygen to the makefile ensures that, on running cmake and then make 
+The documentation is created side by side, separately, the command doxygen does not have to be run to create the html, latex folders for the documentation
+
+This can be automated using github actions, where on push of code this entire thing 
+is run and the operations are performed
+
+This command
+ cmake -S . -B ../build-folder/ creates the makefiles and other cmake artifacts in the build-folder directory
+
+On running make in the build-folder, the executable as well as documentation is generated
