@@ -13,3 +13,8 @@ This command
  cmake -S . -B ../build-folder/ creates the makefiles and other cmake artifacts in the build-folder directory
 
 On running make in the build-folder, the executable as well as documentation is generated
+
+On code change or docs change,
+CMake is run to generate the make build files, and written to the build-folder
+When make is run in the build-folder, it generated the docs
+The documentation is built automatically at build-folder/html/index.html
