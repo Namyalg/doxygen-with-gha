@@ -1,5 +1,15 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.1" xml:lang="en-US">
+  <compound refid="classa_1_1b_1_1c_1_1test" kind="class"><name>a::b::c::test</name>
+    <member refid="classa_1_1b_1_1c_1_1test_1a67cd69732cd30db0c8ddaf69b993e18e" kind="function"><name>test</name></member>
+    <member refid="classa_1_1b_1_1c_1_1test_1af9b441c4577333893907037ea19acede" kind="function"><name>day</name></member>
+  </compound>
+  <compound refid="namespacea" kind="namespace"><name>a</name>
+  </compound>
+  <compound refid="namespacea_1_1b" kind="namespace"><name>a::b</name>
+  </compound>
+  <compound refid="namespacea_1_1b_1_1c" kind="namespace"><name>a::b::c</name>
+  </compound>
   <compound refid="namespaceone" kind="namespace"><name>one</name>
     <member refid="namespace_8cpp_1a83ec783b4b434337aae32fa5a1eaa363" kind="function"><name>location_one</name></member>
   </compound>
@@ -8,6 +18,8 @@
   </compound>
   <compound refid="namespaceone_1_1two_1_1three" kind="namespace"><name>one::two::three</name>
     <member refid="namespace_8cpp_1a916ed21c4f3eb13e618759ee14e6ebc2" kind="function"><name>location_three</name></member>
+  </compound>
+  <compound refid="democlass_8cpp" kind="file"><name>democlass.cpp</name>
   </compound>
   <compound refid="namespace_8cpp" kind="file"><name>namespace.cpp</name>
   </compound>

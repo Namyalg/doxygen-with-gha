@@ -44,7 +44,6 @@
 #include "../include/namespace.h"
 #include<iostream>
 
-
 namespace one{
     namespace two{
         namespace three{

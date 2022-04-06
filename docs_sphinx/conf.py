@@ -92,4 +92,8 @@ breathe_projects = {
 	"sample": "_build/xml/"
 }
 breathe_default_project = "sample"
+breathe_show_include = True 
+breathe_domain_by_extension = {
+        "h" : "cpp",
+        }
 breathe_default_members = ('members', 'undoc-members')

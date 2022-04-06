@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classa_1_1b_1_1c_1_1test" kind="class" language="C++" prot="public">
+    <compoundname>a::b::c::test</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classa_1_1b_1_1c_1_1test_1a67cd69732cd30db0c8ddaf69b993e18e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>a::b::c::test::test</definition>
+        <argsstring>()</argsstring>
+        <name>test</name>
+        <briefdescription>
+<para>This is the class constructor. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructor linked here.</para>
+<para>The constructor is linked here </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/e/doxy-with-cmake/src/democlass.cpp" line="115" column="17" bodyfile="/mnt/e/doxy-with-cmake/src/democlass.cpp" bodystart="115" bodyend="117"/>
+      </memberdef>
+      <memberdef kind="function" id="classa_1_1b_1_1c_1_1test_1af9b441c4577333893907037ea19acede" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void a::b::c::test::day</definition>
+        <argsstring>()</argsstring>
+        <name>day</name>
+        <briefdescription>
+<para>This prints the day of the week. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>External function linked.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>None</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>None</para>
+</simplesect>
+Testing a function defined outside the class here <simplesect kind="return"><para>void </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/e/doxy-with-cmake/src/democlass.cpp" line="125" column="22" bodyfile="/mnt/e/doxy-with-cmake/src/democlass.cpp" bodystart="125" bodyend="127"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>A test class written for demonstration purposes. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/mnt/e/doxy-with-cmake/src/democlass.cpp" line="108" column="13" bodyfile="/mnt/e/doxy-with-cmake/src/democlass.cpp" bodystart="108" bodyend="128"/>
+    <listofallmembers>
+      <member refid="classa_1_1b_1_1c_1_1test_1af9b441c4577333893907037ea19acede" prot="public" virt="non-virtual"><scope>a::b::c::test</scope><name>day</name></member>
+      <member refid="classa_1_1b_1_1c_1_1test_1a67cd69732cd30db0c8ddaf69b993e18e" prot="public" virt="non-virtual"><scope>a::b::c::test</scope><name>test</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
