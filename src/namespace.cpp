@@ -40,8 +40,7 @@
  * voluptate velit esse quam nihil molestiae consequatur, vel illum qui 
  * dolorem eum fugiat quo voluptas nulla pariatur?"
  * ***********************/
-
-#include "../include/namespace.h"
+#include "../include/moja/modules/cbm/namespace.h"
 #include<iostream>
 
 namespace one{

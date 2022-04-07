@@ -1,0 +1,22 @@
+\hypertarget{ageclasshelper_8cpp}{}\doxysection{/mnt/e/doxy-\/with-\/cmake/src/ageclasshelper.cpp File Reference}
+\label{ageclasshelper_8cpp}\index{/mnt/e/doxy-\/with-\/cmake/src/ageclasshelper.cpp@{/mnt/e/doxy-\/with-\/cmake/src/ageclasshelper.cpp}}
+
+
+Age\+Class\+Helper.  
+
+
+{\ttfamily \#include \char`\"{}moja/modules/cbm/ageclasshelper.\+h\char`\"{}}\newline
+{\ttfamily \#include $<$boost/format.\+hpp$>$}\newline
+Include dependency graph for ageclasshelper.\+cpp\+:
+% FIG 0
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{classmoja_1_1modules_1_1cbm_1_1AgeClassHelper}{moja\+::modules\+::cbm\+::\+Age\+Class\+Helper}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Age\+Class\+Helper. 
+
+Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"{} 

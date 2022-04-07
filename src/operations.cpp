@@ -9,7 +9,7 @@
  * dolorem eum fugiat quo voluptas nulla pariatur?"
  * ***********************/
 
-#include "../include/operations.h"
+#include "../include/moja/modules/cbm/operations.h"
 #include<iostream>
 
  /**

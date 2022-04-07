@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classmoja_1_1modules_1_1cbm_1_1IRecoveryRule" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>moja::modules::cbm::IRecoveryRule</compoundname>
+    <derivedcompoundref refid="classmoja_1_1modules_1_1cbm_1_1CarbonRecoveryRule" prot="public" virt="non-virtual">moja::modules::cbm::CarbonRecoveryRule</derivedcompoundref>
+    <derivedcompoundref refid="classmoja_1_1modules_1_1cbm_1_1TimeRecoveryRule" prot="public" virt="non-virtual">moja::modules::cbm::TimeRecoveryRule</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmoja_1_1modules_1_1cbm_1_1IRecoveryRule_1ae2e329fcc418bebd106e30e48c44512b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual moja::modules::cbm::IRecoveryRule::~IRecoveryRule</definition>
+        <argsstring>()</argsstring>
+        <name>~IRecoveryRule</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/e/doxy-with-cmake/src/cbmpartitioningmodule.cpp" line="15" column="17" bodyfile="/mnt/e/doxy-with-cmake/src/cbmpartitioningmodule.cpp" bodystart="15" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="function" id="classmoja_1_1modules_1_1cbm_1_1IRecoveryRule_1afcf028d62464586b6914d8916220ec0c" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>bool</type>
+        <definition>virtual bool moja::modules::cbm::IRecoveryRule::isSatisfied</definition>
+        <argsstring>()=0</argsstring>
+        <name>isSatisfied</name>
+        <reimplementedby refid="classmoja_1_1modules_1_1cbm_1_1TimeRecoveryRule_1ac07bc69698d6dfdd768c831a892c27f4">isSatisfied</reimplementedby>
+        <reimplementedby refid="classmoja_1_1modules_1_1cbm_1_1CarbonRecoveryRule_1a448e81c3d260b1fbd841705034b99a60">isSatisfied</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/e/doxy-with-cmake/src/cbmpartitioningmodule.cpp" line="16" column="22"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>moja::modules::cbm::IRecoveryRule</label>
+        <link refid="classmoja_1_1modules_1_1cbm_1_1IRecoveryRule"/>
+      </node>
+      <node id="2">
+        <label>moja::modules::cbm::CarbonRecoveryRule</label>
+        <link refid="classmoja_1_1modules_1_1cbm_1_1CarbonRecoveryRule"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>moja::modules::cbm::TimeRecoveryRule</label>
+        <link refid="classmoja_1_1modules_1_1cbm_1_1TimeRecoveryRule"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="/mnt/e/doxy-with-cmake/src/cbmpartitioningmodule.cpp" line="13" column="5" bodyfile="/mnt/e/doxy-with-cmake/src/cbmpartitioningmodule.cpp" bodystart="13" bodyend="17"/>
+    <listofallmembers>
+      <member refid="classmoja_1_1modules_1_1cbm_1_1IRecoveryRule_1afcf028d62464586b6914d8916220ec0c" prot="public" virt="pure-virtual"><scope>moja::modules::cbm::IRecoveryRule</scope><name>isSatisfied</name></member>
+      <member refid="classmoja_1_1modules_1_1cbm_1_1IRecoveryRule_1ae2e329fcc418bebd106e30e48c44512b" prot="public" virt="virtual"><scope>moja::modules::cbm::IRecoveryRule</scope><name>~IRecoveryRule</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

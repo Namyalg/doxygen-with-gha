@@ -18,13 +18,13 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/mnt/e/doxy-with-cmake/src/namespace.cpp" line="54" column="18" bodyfile="/mnt/e/doxy-with-cmake/src/namespace.cpp" bodystart="54" bodyend="56"/>
+        <location file="/mnt/e/doxy-with-cmake/src/namespace.cpp" line="53" column="18" bodyfile="/mnt/e/doxy-with-cmake/src/namespace.cpp" bodystart="53" bodyend="55"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/mnt/e/doxy-with-cmake/src/namespace.cpp" line="49" column="9"/>
+    <location file="/mnt/e/doxy-with-cmake/src/namespace.cpp" line="48" column="9"/>
   </compounddef>
 </doxygen>

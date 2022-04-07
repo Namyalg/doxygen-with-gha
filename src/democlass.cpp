@@ -73,8 +73,7 @@
  * dolorem eum fugiat quo voluptas nulla pariatur?"
  * ***********************/
 
-#include "../include/democlass.h"
-
+#include "../include/moja/modules/cbm/democlass.h"
 #include<iostream>
 
 namespace a{

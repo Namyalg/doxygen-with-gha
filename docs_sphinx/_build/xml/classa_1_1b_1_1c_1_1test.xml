@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/mnt/e/doxy-with-cmake/src/democlass.cpp" line="115" column="17" bodyfile="/mnt/e/doxy-with-cmake/src/democlass.cpp" bodystart="115" bodyend="117"/>
+        <location file="/mnt/e/doxy-with-cmake/src/democlass.cpp" line="114" column="17" bodyfile="/mnt/e/doxy-with-cmake/src/democlass.cpp" bodystart="114" bodyend="116"/>
       </memberdef>
       <memberdef kind="function" id="classa_1_1b_1_1c_1_1test_1af9b441c4577333893907037ea19acede" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -46,7 +46,7 @@ Testing a function defined outside the class here <simplesect kind="return"><par
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/mnt/e/doxy-with-cmake/src/democlass.cpp" line="125" column="22" bodyfile="/mnt/e/doxy-with-cmake/src/democlass.cpp" bodystart="125" bodyend="127"/>
+        <location file="/mnt/e/doxy-with-cmake/src/democlass.cpp" line="124" column="22" bodyfile="/mnt/e/doxy-with-cmake/src/democlass.cpp" bodystart="124" bodyend="126"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -54,7 +54,7 @@ Testing a function defined outside the class here <simplesect kind="return"><par
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/mnt/e/doxy-with-cmake/src/democlass.cpp" line="108" column="13" bodyfile="/mnt/e/doxy-with-cmake/src/democlass.cpp" bodystart="108" bodyend="128"/>
+    <location file="/mnt/e/doxy-with-cmake/src/democlass.cpp" line="107" column="13" bodyfile="/mnt/e/doxy-with-cmake/src/democlass.cpp" bodystart="107" bodyend="127"/>
     <listofallmembers>
       <member refid="classa_1_1b_1_1c_1_1test_1af9b441c4577333893907037ea19acede" prot="public" virt="non-virtual"><scope>a::b::c::test</scope><name>day</name></member>
       <member refid="classa_1_1b_1_1c_1_1test_1a67cd69732cd30db0c8ddaf69b993e18e" prot="public" virt="non-virtual"><scope>a::b::c::test</scope><name>test</name></member>

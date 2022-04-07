@@ -1,0 +1,187 @@
+\hypertarget{classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep}{}\doxysection{moja\+::modules\+::cbm\+::Time\+Series\+::Time\+Series\+Prep Class Reference}
+\label{classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep}\index{moja::modules::cbm::TimeSeries::TimeSeriesPrep@{moja::modules::cbm::TimeSeries::TimeSeriesPrep}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_a89e37e6ddde87cc19d3b6ace170614f4}\label{classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_a89e37e6ddde87cc19d3b6ace170614f4}} 
+{\bfseries Time\+Series\+Prep} (int yr0, int data\+Per\+Yr, int n\+Yrs, bool sub\+Same, Date\+Origin origin, int extra\+Steps, const std\+::vector$<$ boost\+::optional$<$ double $>$$>$ raw)
+\item 
+\mbox{\Hypertarget{classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_a967bdb104420bc447c509fe3f65c507f}\label{classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_a967bdb104420bc447c509fe3f65c507f}} 
+void {\bfseries set\+Timing} (const flint\+::\+ITiming $\ast$timing)
+\item 
+\mbox{\Hypertarget{classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_a067f5ebde25627387106295f1df5a1c1}\label{classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_a067f5ebde25627387106295f1df5a1c1}} 
+const std\+::vector$<$ double $>$ \& {\bfseries series} ()
+\item 
+\mbox{\Hypertarget{classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_ae857280cabaa50fc46efa2ea3ae9c882}\label{classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_ae857280cabaa50fc46efa2ea3ae9c882}} 
+double {\bfseries value} ()
+\item 
+\mbox{\Hypertarget{classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_aa1258a53204a93fe744fa1bfd038aeb9}\label{classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_aa1258a53204a93fe744fa1bfd038aeb9}} 
+int {\bfseries yr0} () const
+\item 
+\mbox{\Hypertarget{classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_abf630a25a02187f2fccff97b0e8ed495}\label{classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_abf630a25a02187f2fccff97b0e8ed495}} 
+int {\bfseries n\+Yrs} () const
+\item 
+\mbox{\Hypertarget{classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_ab83c9545ce20a0196baf75aad4de0a6b}\label{classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_ab83c9545ce20a0196baf75aad4de0a6b}} 
+int {\bfseries data\+Per\+Yr} () const
+\item 
+\mbox{\Hypertarget{classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_a3cb22c75f0de78ef301ecb484f86d7af}\label{classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_a3cb22c75f0de78ef301ecb484f86d7af}} 
+bool {\bfseries sub\+Same} () const
+\item 
+\mbox{\Hypertarget{classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_a0a78df548686694d3e57a48b2565ed3d}\label{classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_a0a78df548686694d3e57a48b2565ed3d}} 
+const std\+::vector$<$ boost\+::optional$<$ double $>$ $>$ {\bfseries raw} () const
+\item 
+\mbox{\Hypertarget{classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_a686ae07fae188b657b56fff641c673de}\label{classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_a686ae07fae188b657b56fff641c673de}} 
+Date\+Origin {\bfseries origin} () const
+\item 
+\mbox{\Hypertarget{classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_a8e0e99d0dfb22da842692a9446e42921}\label{classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_a8e0e99d0dfb22da842692a9446e42921}} 
+Extrap\+Type {\bfseries extrap} () const
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_ae091dda42c9e41e7ecd29ac19e6aa07f}\label{classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_ae091dda42c9e41e7ecd29ac19e6aa07f}} 
+void {\bfseries prepared\+TS} ()
+\item 
+\mbox{\Hypertarget{classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_a13516baaa98d528af47021b4faae598a}\label{classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_a13516baaa98d528af47021b4faae598a}} 
+void {\bfseries calc\+Sizes} ()
+\item 
+\mbox{\Hypertarget{classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_a224ac6b6432b137fd0b2802d530bca06}\label{classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_a224ac6b6432b137fd0b2802d530bca06}} 
+std\+::vector$<$ double $>$ {\bfseries fill\+Gaps\+Mult} ()
+\item 
+\mbox{\Hypertarget{classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_adf96ac6565d7e6d0176f6966af993147}\label{classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_adf96ac6565d7e6d0176f6966af993147}} 
+void {\bfseries compute\+One\+Data\+Point} (const std\+::vector$<$ double $>$ \&data, std\+::vector$<$ double $>$ \&prep)
+\item 
+\mbox{\Hypertarget{classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_a133709141b07f4d2a2e40834fb4280f4}\label{classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_a133709141b07f4d2a2e40834fb4280f4}} 
+void {\bfseries compute\+Avg\+Yr} (const std\+::vector$<$ double $>$ \&data)
+\item 
+\mbox{\Hypertarget{classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_ae66240a8e68b2d562950b63b85d876d4}\label{classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_ae66240a8e68b2d562950b63b85d876d4}} 
+void {\bfseries compute\+Whole\+Yrs\+Interp} (const std\+::vector$<$ double $>$ \&data, std\+::vector$<$ double $>$ \&prep)
+\item 
+\mbox{\Hypertarget{classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_a88eefafba7a8073d6e0e18c0a0ce853d}\label{classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_a88eefafba7a8073d6e0e18c0a0ce853d}} 
+void {\bfseries compute\+Whole\+Yrs\+Before} (const std\+::vector$<$ double $>$ \&data, std\+::vector$<$ double $>$ \&prep)
+\item 
+\mbox{\Hypertarget{classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_a1b72b2f0212ceabd54abccdd9d1b0fdb}\label{classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_a1b72b2f0212ceabd54abccdd9d1b0fdb}} 
+void {\bfseries compute\+Whole\+Yrs\+After} (const std\+::vector$<$ double $>$ \&data, std\+::vector$<$ double $>$ \&prep)
+\item 
+\mbox{\Hypertarget{classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_a4d516e407f944bf0684b61e5f2916e66}\label{classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_a4d516e407f944bf0684b61e5f2916e66}} 
+void {\bfseries compute\+One\+Whole\+Yr} (const std\+::vector$<$ double $>$ \&data, std\+::vector$<$ double $>$ \&prep, int dix, int pix)
+\item 
+\mbox{\Hypertarget{classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_aa48f14cd5910548402a529ad5ed83f5b}\label{classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_aa48f14cd5910548402a529ad5ed83f5b}} 
+void {\bfseries compute\+Odd\+Steps\+Before} (const std\+::vector$<$ double $>$ \&data, std\+::vector$<$ double $>$ \&prep)
+\item 
+\mbox{\Hypertarget{classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_a355c24969a0464fe33953fdba74febb4}\label{classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_a355c24969a0464fe33953fdba74febb4}} 
+void {\bfseries compute\+Odd\+Steps\+After} (const std\+::vector$<$ double $>$ \&data, std\+::vector$<$ double $>$ \&prep)
+\item 
+\mbox{\Hypertarget{classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_ab3c56ca6f52ff6ff6b0f7b680dcdb940}\label{classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_ab3c56ca6f52ff6ff6b0f7b680dcdb940}} 
+void {\bfseries copy\+Odd\+Steps\+Before} (const std\+::vector$<$ double $>$ \&src, std\+::vector$<$ double $>$ \&prep, int src\+Ix)
+\item 
+\mbox{\Hypertarget{classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_a55dee37c4fdeb950ddf5053f61c42f02}\label{classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_a55dee37c4fdeb950ddf5053f61c42f02}} 
+void {\bfseries copy\+Odd\+Steps\+After} (const std\+::vector$<$ double $>$ \&src, std\+::vector$<$ double $>$ \&prep, int src\+Ix, int pix)
+\item 
+\mbox{\Hypertarget{classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_ab31bf6b06a7b89b1ecc8603e0e3e062c}\label{classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_ab31bf6b06a7b89b1ecc8603e0e3e062c}} 
+int {\bfseries dix\+From\+Yr} (const std\+::vector$<$ double $>$ \&data, int yr)
+\item 
+\mbox{\Hypertarget{classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_ad23243c28012652effecdd6826c15916}\label{classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_ad23243c28012652effecdd6826c15916}} 
+void {\bfseries interp\+One\+Yr} (const double $\ast$d, double $\ast$p, int prep\+Ix\+Lo, int prep\+Ix\+Hi)
+\item 
+\mbox{\Hypertarget{classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_a6e6a90579af725b4bcfdfd0dc36fb08b}\label{classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_a6e6a90579af725b4bcfdfd0dc36fb08b}} 
+void {\bfseries interp\+One\+Yr\+With\+Check} (const std\+::vector$<$ double $>$ \&data, std\+::vector$<$ double $>$ \&prep, int dix, int pix, int prep\+Ix\+Lo, int prep\+Ix\+Hi)
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_a739a390388bf16f688c25d7bd44312c5}\label{classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_a739a390388bf16f688c25d7bd44312c5}} 
+Extrap\+Type {\bfseries \+\_\+extrap}
+\item 
+\mbox{\Hypertarget{classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_aaa0f86a2d9a85b1a47f511e4c6e17d78}\label{classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_aaa0f86a2d9a85b1a47f511e4c6e17d78}} 
+Date\+Origin {\bfseries \+\_\+origin}
+\item 
+\mbox{\Hypertarget{classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_a647a319520ecf0f296516570ca831b14}\label{classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_a647a319520ecf0f296516570ca831b14}} 
+int {\bfseries \+\_\+yr0}
+\item 
+\mbox{\Hypertarget{classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_aec51ec19010ae6e5809cc946186bc89c}\label{classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_aec51ec19010ae6e5809cc946186bc89c}} 
+int {\bfseries \+\_\+n\+Yrs}
+\item 
+\mbox{\Hypertarget{classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_ab77a3fbbe698e499681e3cf2cb6ac191}\label{classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_ab77a3fbbe698e499681e3cf2cb6ac191}} 
+int {\bfseries \+\_\+data\+Per\+Yr}
+\item 
+\mbox{\Hypertarget{classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_ab69bbbac0bfa48f1314a9bb9f23fb3b6}\label{classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_ab69bbbac0bfa48f1314a9bb9f23fb3b6}} 
+double {\bfseries \+\_\+mult}
+\item 
+\mbox{\Hypertarget{classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_a8b77790c03ba14ba148d44516a8e501b}\label{classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_a8b77790c03ba14ba148d44516a8e501b}} 
+bool {\bfseries \+\_\+sub\+Same}
+\item 
+\mbox{\Hypertarget{classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_a3d78fb7798f80ad88b214a95608598e3}\label{classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_a3d78fb7798f80ad88b214a95608598e3}} 
+const flint\+::\+ITiming $\ast$ {\bfseries \+\_\+timing}
+\item 
+\mbox{\Hypertarget{classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_aaf73a991575e6c016643a86ab8ef1916}\label{classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_aaf73a991575e6c016643a86ab8ef1916}} 
+const std\+::vector$<$ boost\+::optional$<$ double $>$ $>$ {\bfseries \+\_\+raw}
+\item 
+\mbox{\Hypertarget{classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_a5c3da6a3683a20ff75bc5f9f6049ed6a}\label{classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_a5c3da6a3683a20ff75bc5f9f6049ed6a}} 
+std\+::vector$<$ double $>$ {\bfseries \+\_\+series}
+\item 
+\mbox{\Hypertarget{classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_ac8e6ffb372cea90487115d0779562d40}\label{classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_ac8e6ffb372cea90487115d0779562d40}} 
+bool {\bfseries \+\_\+prepared}
+\item 
+\mbox{\Hypertarget{classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_a38448849102ae200bca52266cdfdae33}\label{classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_a38448849102ae200bca52266cdfdae33}} 
+int {\bfseries \+\_\+prep\+First\+Yr}
+\item 
+\mbox{\Hypertarget{classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_ae4bb2455d43202ad65411f99bd08f49f}\label{classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_ae4bb2455d43202ad65411f99bd08f49f}} 
+int {\bfseries \+\_\+prep\+First\+Step}
+\item 
+\mbox{\Hypertarget{classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_affdda635ba41ff353c78797722529168}\label{classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_affdda635ba41ff353c78797722529168}} 
+int {\bfseries \+\_\+prep\+Last\+Yr}
+\item 
+\mbox{\Hypertarget{classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_ab5ce59e474a887086965e382a51b9573}\label{classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_ab5ce59e474a887086965e382a51b9573}} 
+int {\bfseries \+\_\+prep\+Steps\+Per\+Yr}
+\item 
+\mbox{\Hypertarget{classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_a70ebe9bdd019f8e5677015f39b0b8ed5}\label{classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_a70ebe9bdd019f8e5677015f39b0b8ed5}} 
+std\+::vector$<$ double $>$ {\bfseries \+\_\+avg\+Data}
+\item 
+\mbox{\Hypertarget{classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_a88fe75fbe7adea96f45c1e1f928fd327}\label{classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_a88fe75fbe7adea96f45c1e1f928fd327}} 
+std\+::vector$<$ double $>$ {\bfseries \+\_\+avg\+Prep}
+\item 
+\mbox{\Hypertarget{classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_ae756a35b3dad3d5faf5ad2e4b1487e09}\label{classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_ae756a35b3dad3d5faf5ad2e4b1487e09}} 
+int {\bfseries \+\_\+data\+St\+Yr}
+\item 
+\mbox{\Hypertarget{classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_a4b271de49a037f2fe21e2aa7507446bf}\label{classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_a4b271de49a037f2fe21e2aa7507446bf}} 
+int {\bfseries \+\_\+data\+En\+Yr}
+\item 
+\mbox{\Hypertarget{classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_ad334487e7ab0fbbfaf7592fdcf2316f8}\label{classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_ad334487e7ab0fbbfaf7592fdcf2316f8}} 
+int {\bfseries \+\_\+prep\+NSteps}
+\item 
+\mbox{\Hypertarget{classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_a3ae3fa6133877a79a7f942284f76d7d2}\label{classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_a3ae3fa6133877a79a7f942284f76d7d2}} 
+int {\bfseries \+\_\+prep\+St\+Yr}
+\item 
+\mbox{\Hypertarget{classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_a05d23685115443db3d83dffb28868ea3}\label{classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_a05d23685115443db3d83dffb28868ea3}} 
+int {\bfseries \+\_\+prep\+En\+Yr}
+\item 
+\mbox{\Hypertarget{classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_aa4672335510075b938ef1e820c599e12}\label{classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_aa4672335510075b938ef1e820c599e12}} 
+int {\bfseries \+\_\+odd\+Steps\+Before}
+\item 
+\mbox{\Hypertarget{classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_accab8ca5ac02c40d04c12b5aa009149c}\label{classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_accab8ca5ac02c40d04c12b5aa009149c}} 
+int {\bfseries \+\_\+whole\+Yrs\+Before}
+\item 
+\mbox{\Hypertarget{classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_a657d8679c886d52fdc121bee263b6ae9}\label{classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_a657d8679c886d52fdc121bee263b6ae9}} 
+int {\bfseries \+\_\+whole\+Yrs\+Interp}
+\item 
+\mbox{\Hypertarget{classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_a3c610017845299f20304ff28e6cc4ab0}\label{classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_a3c610017845299f20304ff28e6cc4ab0}} 
+int {\bfseries \+\_\+whole\+Yrs\+After}
+\item 
+\mbox{\Hypertarget{classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_a12c83db24e484da6832c06b91556300b}\label{classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_a12c83db24e484da6832c06b91556300b}} 
+int {\bfseries \+\_\+odd\+Steps\+After}
+\item 
+\mbox{\Hypertarget{classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_a92d2c0807ef81b4d350f1fed0d623b22}\label{classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_a92d2c0807ef81b4d350f1fed0d623b22}} 
+int {\bfseries \+\_\+n\+Whole\+Yrs}
+\item 
+\mbox{\Hypertarget{classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_ad2d7323dca279951a6a29c6e75debada}\label{classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_ad2d7323dca279951a6a29c6e75debada}} 
+int {\bfseries \+\_\+first\+Whole\+Yr}
+\item 
+\mbox{\Hypertarget{classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_a03286bcfab62bd3eec1336d0fff05fa6}\label{classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_a03286bcfab62bd3eec1336d0fff05fa6}} 
+int {\bfseries \+\_\+extra\+Steps\+If\+Sprout}
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+/mnt/e/doxy-\/with-\/cmake/src/timeseries.\+cpp\end{DoxyCompactItemize}

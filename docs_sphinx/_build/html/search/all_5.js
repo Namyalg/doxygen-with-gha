@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['subtract_8',['subtract',['../operations_8cpp.html#a5dff25c0ae84a737bb55b245f86c1973',1,'operations.cpp']]]
+  ['namespace_2ecpp_11',['namespace.cpp',['../namespace_8cpp.html',1,'']]]
 ];

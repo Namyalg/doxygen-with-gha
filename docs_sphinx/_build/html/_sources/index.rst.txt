@@ -9,5 +9,6 @@ Welcome to the sample documentation!
    api/operations
    api/namespace
    api/demoname
+   api/ageclass
 
 

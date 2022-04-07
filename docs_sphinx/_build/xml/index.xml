@@ -1,14 +1,160 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.1" xml:lang="en-US">
+  <compound refid="classmoja_1_1modules_1_1cbm_1_1AgeClassHelper" kind="class"><name>moja::modules::cbm::AgeClassHelper</name>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1AgeClassHelper_1af95dc7840c3323832b9defd94ebde007" kind="variable"><name>_ageClassSize</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1AgeClassHelper_1aaf765320db710a2558c105f5f0b6a634" kind="variable"><name>_maximumAge</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1AgeClassHelper_1ab0d40424cf316ad3da9160697da43b64" kind="variable"><name>_numAgeClasses</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1AgeClassHelper_1afe751f1ea44f82d12b44b10b3377dc24" kind="variable"><name>_ageClasses</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1AgeClassHelper_1a94578b31a76ff91ab224bec0d4692a32" kind="variable"><name>_ageClassLookup</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1AgeClassHelper_1adf5b43c25b069e99f1b76e4698d11a7f" kind="function"><name>AgeClassHelper</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1AgeClassHelper_1ab92098e526f3a7bc4aeab3c1fec3a975" kind="function"><name>toAgeClass</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1AgeClassHelper_1aa342c366fe119d213aee342ab17bb34f" kind="function"><name>getAgeClass</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1AgeClassHelper_1a94d31730c456cc61378f1ab81b593d05" kind="function"><name>getAgeClassString</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1AgeClassHelper_1a1b599a7b1f64e9d879ad9fdf3b2eacff" kind="function"><name>getAgeClasses</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1AgeClassHelper_1a66a20b521c1128fde8700af3e518690b" kind="function"><name>generateAgeClasses</name></member>
+  </compound>
+  <compound refid="classmoja_1_1modules_1_1cbm_1_1CarbonRecoveryRule" kind="class"><name>moja::modules::cbm::CarbonRecoveryRule</name>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1CarbonRecoveryRule_1a2d92e4dbc707e1ee1da03535a5fe5dbb" kind="variable"><name>_target</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1CarbonRecoveryRule_1a36ed57649a12bdb0b50375399afe1dff" kind="variable"><name>_pools</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1CarbonRecoveryRule_1a004e6c73a7e820ab63b3363bb35ae88a" kind="function"><name>CarbonRecoveryRule</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1CarbonRecoveryRule_1a448e81c3d260b1fbd841705034b99a60" kind="function"><name>isSatisfied</name></member>
+  </compound>
+  <compound refid="structmoja_1_1modules_1_1CBMObjectHolder" kind="struct"><name>moja::modules::CBMObjectHolder</name>
+    <member refid="structmoja_1_1modules_1_1CBMObjectHolder_1a2092c609a736e00cb2da5ab9cd238f03" kind="variable"><name>dateDimension</name></member>
+    <member refid="structmoja_1_1modules_1_1CBMObjectHolder_1a7a6d657cc820c0ca98ce4ca02b2926fb" kind="variable"><name>poolInfoDimension</name></member>
+    <member refid="structmoja_1_1modules_1_1CBMObjectHolder_1a4b522758f1123a6121fecd04253b155d" kind="variable"><name>classifierSetDimension</name></member>
+    <member refid="structmoja_1_1modules_1_1CBMObjectHolder_1ab4a51ccf4286c26c24096d05f7616e4e" kind="variable"><name>classifierNames</name></member>
+    <member refid="structmoja_1_1modules_1_1CBMObjectHolder_1afc82a75142218e0e6b5a28f9383f4c66" kind="variable"><name>classifierNamesLock</name></member>
+    <member refid="structmoja_1_1modules_1_1CBMObjectHolder_1a38ec0b94cb7d5bd6fc81cce37aa54bd8" kind="variable"><name>landClassDimension</name></member>
+    <member refid="structmoja_1_1modules_1_1CBMObjectHolder_1a313286a063c2895618b0b94ecaa252ba" kind="variable"><name>locationDimension</name></member>
+    <member refid="structmoja_1_1modules_1_1CBMObjectHolder_1a15523e5caa7c2e04867a3330957d0ff3" kind="variable"><name>poolDimension</name></member>
+    <member refid="structmoja_1_1modules_1_1CBMObjectHolder_1a1e04dbc85bc74c4b1a8df84014442805" kind="variable"><name>fluxDimension</name></member>
+    <member refid="structmoja_1_1modules_1_1CBMObjectHolder_1a194e8c9b25fb1c542a75f8afda411ec6" kind="variable"><name>ageClassDimension</name></member>
+    <member refid="structmoja_1_1modules_1_1CBMObjectHolder_1a6530238596b2205c784942d49ea36e0f" kind="variable"><name>ageAreaDimension</name></member>
+    <member refid="structmoja_1_1modules_1_1CBMObjectHolder_1ae4f62fb4e680df147ca614fde6db32c6" kind="variable"><name>moduleInfoDimension</name></member>
+    <member refid="structmoja_1_1modules_1_1CBMObjectHolder_1af26139cc5a79bfe1a64f950ee9b8afa0" kind="variable"><name>disturbanceTypeDimension</name></member>
+    <member refid="structmoja_1_1modules_1_1CBMObjectHolder_1a0b123e46f806871f0346458ae06418bb" kind="variable"><name>disturbanceDimension</name></member>
+    <member refid="structmoja_1_1modules_1_1CBMObjectHolder_1a22d1e192427b182a861fed44ca8d1d1c" kind="variable"><name>errorDimension</name></member>
+    <member refid="structmoja_1_1modules_1_1CBMObjectHolder_1acee579a66adec0ad4aa9da6a0e4b0690" kind="variable"><name>locationErrorDimension</name></member>
+    <member refid="structmoja_1_1modules_1_1CBMObjectHolder_1afd3245315e6773765ba035812a96e6e1" kind="variable"><name>gcFactory</name></member>
+    <member refid="structmoja_1_1modules_1_1CBMObjectHolder_1a98838a27b67d37fdcdd0a5748deff68d" kind="variable"><name>volToBioCarbonGrowth</name></member>
+    <member refid="structmoja_1_1modules_1_1CBMObjectHolder_1af390c387879be207b91c2adeed70a57c" kind="variable"><name>landUnitAggregatorId</name></member>
+    <member refid="structmoja_1_1modules_1_1CBMObjectHolder_1a13fa771354aa366fdb45f7554cf5caef" kind="variable"><name>nextDynamicGcId</name></member>
+    <member refid="structmoja_1_1modules_1_1CBMObjectHolder_1acb574fce4d59711d5dfe3167472aa322" kind="variable"><name>dynamicGcIdLock</name></member>
+    <member refid="structmoja_1_1modules_1_1CBMObjectHolder_1a8f2e2aa3d3a47aa461195a68e2c47071" kind="variable"><name>dynamicGcIdCache</name></member>
+    <member refid="structmoja_1_1modules_1_1CBMObjectHolder_1aeca0329569862238bbcbe5fbd501fbef" kind="variable"><name>dynamicGcCache</name></member>
+    <member refid="structmoja_1_1modules_1_1CBMObjectHolder_1a0c46b3c28387a8cb32105b250a5e352c" kind="variable"><name>flatFluxDimension</name></member>
+    <member refid="structmoja_1_1modules_1_1CBMObjectHolder_1a866d3145564669617cf6cb546e392c92" kind="variable"><name>flatPoolDimension</name></member>
+    <member refid="structmoja_1_1modules_1_1CBMObjectHolder_1a4f0fdebcb96e337c6876628690cafe35" kind="variable"><name>flatErrorDimension</name></member>
+    <member refid="structmoja_1_1modules_1_1CBMObjectHolder_1a02e2fef4e852b9e0316d68c0dc22924d" kind="variable"><name>flatAgeDimension</name></member>
+    <member refid="structmoja_1_1modules_1_1CBMObjectHolder_1a7b078fb3b1981a6e0b40327c866b5c82" kind="variable"><name>flatDisturbanceDimension</name></member>
+    <member refid="structmoja_1_1modules_1_1CBMObjectHolder_1a0b7e75fcbe116d8f923818255f7da163" kind="function"><name>CBMObjectHolder</name></member>
+  </compound>
+  <compound refid="classmoja_1_1modules_1_1cbm_1_1IRecoveryRule" kind="class"><name>moja::modules::cbm::IRecoveryRule</name>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1IRecoveryRule_1ae2e329fcc418bebd106e30e48c44512b" kind="function"><name>~IRecoveryRule</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1IRecoveryRule_1afcf028d62464586b6914d8916220ec0c" kind="function"><name>isSatisfied</name></member>
+  </compound>
   <compound refid="classa_1_1b_1_1c_1_1test" kind="class"><name>a::b::c::test</name>
     <member refid="classa_1_1b_1_1c_1_1test_1a67cd69732cd30db0c8ddaf69b993e18e" kind="function"><name>test</name></member>
     <member refid="classa_1_1b_1_1c_1_1test_1af9b441c4577333893907037ea19acede" kind="function"><name>day</name></member>
+  </compound>
+  <compound refid="classthis" kind="class"><name>this</name>
+  </compound>
+  <compound refid="classmoja_1_1modules_1_1cbm_1_1TimeRecoveryRule" kind="class"><name>moja::modules::cbm::TimeRecoveryRule</name>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1TimeRecoveryRule_1ae5b0d48441bbaa326d1e732f2a3b3b59" kind="variable"><name>_targetYear</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1TimeRecoveryRule_1a3e546b33494c22837b4cf99b0ffc2882" kind="variable"><name>_age</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1TimeRecoveryRule_1a2fbb5cd2f3e6dd47287c4fc21e7654a1" kind="variable"><name>_timing</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1TimeRecoveryRule_1aa47f45fc8a438f612242efe92706b119" kind="function"><name>TimeRecoveryRule</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1TimeRecoveryRule_1ac07bc69698d6dfdd768c831a892c27f4" kind="function"><name>isSatisfied</name></member>
+  </compound>
+  <compound refid="classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep" kind="class"><name>moja::modules::cbm::TimeSeries::TimeSeriesPrep</name>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_1a739a390388bf16f688c25d7bd44312c5" kind="variable"><name>_extrap</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_1aaa0f86a2d9a85b1a47f511e4c6e17d78" kind="variable"><name>_origin</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_1a647a319520ecf0f296516570ca831b14" kind="variable"><name>_yr0</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_1aec51ec19010ae6e5809cc946186bc89c" kind="variable"><name>_nYrs</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_1ab77a3fbbe698e499681e3cf2cb6ac191" kind="variable"><name>_dataPerYr</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_1ab69bbbac0bfa48f1314a9bb9f23fb3b6" kind="variable"><name>_mult</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_1a8b77790c03ba14ba148d44516a8e501b" kind="variable"><name>_subSame</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_1a3d78fb7798f80ad88b214a95608598e3" kind="variable"><name>_timing</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_1aaf73a991575e6c016643a86ab8ef1916" kind="variable"><name>_raw</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_1a5c3da6a3683a20ff75bc5f9f6049ed6a" kind="variable"><name>_series</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_1ac8e6ffb372cea90487115d0779562d40" kind="variable"><name>_prepared</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_1a38448849102ae200bca52266cdfdae33" kind="variable"><name>_prepFirstYr</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_1ae4bb2455d43202ad65411f99bd08f49f" kind="variable"><name>_prepFirstStep</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_1affdda635ba41ff353c78797722529168" kind="variable"><name>_prepLastYr</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_1ab5ce59e474a887086965e382a51b9573" kind="variable"><name>_prepStepsPerYr</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_1a70ebe9bdd019f8e5677015f39b0b8ed5" kind="variable"><name>_avgData</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_1a88fe75fbe7adea96f45c1e1f928fd327" kind="variable"><name>_avgPrep</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_1ae756a35b3dad3d5faf5ad2e4b1487e09" kind="variable"><name>_dataStYr</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_1a4b271de49a037f2fe21e2aa7507446bf" kind="variable"><name>_dataEnYr</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_1ad334487e7ab0fbbfaf7592fdcf2316f8" kind="variable"><name>_prepNSteps</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_1a3ae3fa6133877a79a7f942284f76d7d2" kind="variable"><name>_prepStYr</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_1a05d23685115443db3d83dffb28868ea3" kind="variable"><name>_prepEnYr</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_1aa4672335510075b938ef1e820c599e12" kind="variable"><name>_oddStepsBefore</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_1accab8ca5ac02c40d04c12b5aa009149c" kind="variable"><name>_wholeYrsBefore</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_1a657d8679c886d52fdc121bee263b6ae9" kind="variable"><name>_wholeYrsInterp</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_1a3c610017845299f20304ff28e6cc4ab0" kind="variable"><name>_wholeYrsAfter</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_1a12c83db24e484da6832c06b91556300b" kind="variable"><name>_oddStepsAfter</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_1a92d2c0807ef81b4d350f1fed0d623b22" kind="variable"><name>_nWholeYrs</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_1ad2d7323dca279951a6a29c6e75debada" kind="variable"><name>_firstWholeYr</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_1a03286bcfab62bd3eec1336d0fff05fa6" kind="variable"><name>_extraStepsIfSprout</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_1a89e37e6ddde87cc19d3b6ace170614f4" kind="function"><name>TimeSeriesPrep</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_1a1f78c25562534e0d3adeb8e67da4904e" kind="function"><name>TimeSeriesPrep</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_1af8be1072cf6765d5c5351434267af479" kind="function"><name>~TimeSeriesPrep</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_1a967bdb104420bc447c509fe3f65c507f" kind="function"><name>setTiming</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_1a067f5ebde25627387106295f1df5a1c1" kind="function"><name>series</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_1ae857280cabaa50fc46efa2ea3ae9c882" kind="function"><name>value</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_1aa1258a53204a93fe744fa1bfd038aeb9" kind="function"><name>yr0</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_1abf630a25a02187f2fccff97b0e8ed495" kind="function"><name>nYrs</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_1ab83c9545ce20a0196baf75aad4de0a6b" kind="function"><name>dataPerYr</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_1a3cb22c75f0de78ef301ecb484f86d7af" kind="function"><name>subSame</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_1a0a78df548686694d3e57a48b2565ed3d" kind="function"><name>raw</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_1a686ae07fae188b657b56fff641c673de" kind="function"><name>origin</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_1a8e0e99d0dfb22da842692a9446e42921" kind="function"><name>extrap</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_1ae091dda42c9e41e7ecd29ac19e6aa07f" kind="function"><name>preparedTS</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_1a13516baaa98d528af47021b4faae598a" kind="function"><name>calcSizes</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_1a224ac6b6432b137fd0b2802d530bca06" kind="function"><name>fillGapsMult</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_1adf96ac6565d7e6d0176f6966af993147" kind="function"><name>computeOneDataPoint</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_1a133709141b07f4d2a2e40834fb4280f4" kind="function"><name>computeAvgYr</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_1ae66240a8e68b2d562950b63b85d876d4" kind="function"><name>computeWholeYrsInterp</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_1a88eefafba7a8073d6e0e18c0a0ce853d" kind="function"><name>computeWholeYrsBefore</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_1a1b72b2f0212ceabd54abccdd9d1b0fdb" kind="function"><name>computeWholeYrsAfter</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_1a4d516e407f944bf0684b61e5f2916e66" kind="function"><name>computeOneWholeYr</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_1aa48f14cd5910548402a529ad5ed83f5b" kind="function"><name>computeOddStepsBefore</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_1a355c24969a0464fe33953fdba74febb4" kind="function"><name>computeOddStepsAfter</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_1ab3c56ca6f52ff6ff6b0f7b680dcdb940" kind="function"><name>copyOddStepsBefore</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_1a55dee37c4fdeb950ddf5053f61c42f02" kind="function"><name>copyOddStepsAfter</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_1ab31bf6b06a7b89b1ecc8603e0e3e062c" kind="function"><name>dixFromYr</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_1ad23243c28012652effecdd6826c15916" kind="function"><name>interpOneYr</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1TimeSeries_1_1TimeSeriesPrep_1a6e6a90579af725b4bcfdfd0dc36fb08b" kind="function"><name>interpOneYrWithCheck</name></member>
   </compound>
   <compound refid="namespacea" kind="namespace"><name>a</name>
   </compound>
   <compound refid="namespacea_1_1b" kind="namespace"><name>a::b</name>
   </compound>
   <compound refid="namespacea_1_1b_1_1c" kind="namespace"><name>a::b::c</name>
+  </compound>
+  <compound refid="namespacemoja" kind="namespace"><name>moja</name>
+  </compound>
+  <compound refid="namespacemoja_1_1flint" kind="namespace"><name>moja::flint</name>
+  </compound>
+  <compound refid="namespacemoja_1_1modules" kind="namespace"><name>moja::modules</name>
+    <member refid="libraryfactory_8cpp_1a6f5c4bcb94baac8366762a5869ed6ef1" kind="variable"><name>cbmObjectHolder</name></member>
+    <member refid="libraryfactory_8cpp_1acc347d3ada9f99f6e7c5a52f7fdb358f" kind="function"><name>CreateCBMAggregatorLandUnitData</name></member>
+    <member refid="libraryfactory_8cpp_1acda1acbaf04a46712c299750a88a8ff5" kind="function"><name>CreateCBMAggregatorSQLiteWriter</name></member>
+    <member refid="libraryfactory_8cpp_1a1a1b98d3fdffd42ec905417d524a3177" kind="function"><name>CreateCBMFlatAggregatorLandUnitData</name></member>
+    <member refid="libraryfactory_8cpp_1a3015c60cac3d5745f0f9ef42031a3c85" kind="function"><name>CreateCBMAggregatorCsvWriter</name></member>
+    <member refid="libraryfactory_8cpp_1ae2f062c9759954f52e3b3426dbfc337d" kind="function"><name>CreateCBMAggregatorPostgreSQLWriter</name></member>
+    <member refid="libraryfactory_8cpp_1af667e7c4316562811c9f56180e04d98e" kind="function"><name>CreateCBMAggregatorLibPQXXWriter</name></member>
+    <member refid="libraryfactory_8cpp_1a9717bb0c4fced986b246681cf759b8da" kind="function"><name>getModuleRegistrations</name></member>
+    <member refid="libraryfactory_8cpp_1a9b6d13f93007ac9b7b594de0bf31ee06" kind="function"><name>getTransformRegistrations</name></member>
+    <member refid="libraryfactory_8cpp_1aa9239c5a4c3b87c5d9ab6761c6d76a40" kind="function"><name>getFlintDataRegistrations</name></member>
+  </compound>
+  <compound refid="namespacemoja_1_1modules_1_1cbm" kind="namespace"><name>moja::modules::cbm</name>
+    <member refid="lmmin_8cpp_1a2589240631be249f3e6458c1812aa68a" kind="variable"><name>lm_infmsg</name></member>
+    <member refid="lmmin_8cpp_1aba3be6815de82e655b6ed59362b4866e" kind="variable"><name>lm_shortmsg</name></member>
+  </compound>
+  <compound refid="namespacemoja_1_1modules_1_1cbm_1_1TimeSeries" kind="namespace"><name>moja::modules::cbm::TimeSeries</name>
   </compound>
   <compound refid="namespaceone" kind="namespace"><name>one</name>
     <member refid="namespace_8cpp_1a83ec783b4b434337aae32fa5a1eaa363" kind="function"><name>location_one</name></member>
@@ -19,13 +165,182 @@
   <compound refid="namespaceone_1_1two_1_1three" kind="namespace"><name>one::two::three</name>
     <member refid="namespace_8cpp_1a916ed21c4f3eb13e618759ee14e6ebc2" kind="function"><name>location_three</name></member>
   </compound>
+  <compound refid="namespacePoco_1_1Data" kind="namespace"><name>Poco::Data</name>
+  </compound>
+  <compound refid="namespacePoco_1_1Data_1_1Keywords" kind="namespace"><name>Poco::Data::Keywords</name>
+  </compound>
+  <compound refid="namespacepqxx" kind="namespace"><name>pqxx</name>
+  </compound>
+  <compound refid="namespacestd" kind="namespace"><name>std</name>
+  </compound>
+  <compound refid="ageclasshelper_8cpp" kind="file"><name>ageclasshelper.cpp</name>
+  </compound>
+  <compound refid="cbmageindicators_8cpp" kind="file"><name>cbmageindicators.cpp</name>
+  </compound>
+  <compound refid="cbmaggregatorcsvwriter_8cpp" kind="file"><name>cbmaggregatorcsvwriter.cpp</name>
+  </compound>
+  <compound refid="cbmaggregatorlandunitdata_8cpp" kind="file"><name>cbmaggregatorlandunitdata.cpp</name>
+  </compound>
+  <compound refid="cbmaggregatorlibpqxxwriter_8cpp" kind="file"><name>cbmaggregatorlibpqxxwriter.cpp</name>
+  </compound>
+  <compound refid="cbmaggregatorpostgresqlwriter_8cpp" kind="file"><name>cbmaggregatorpostgresqlwriter.cpp</name>
+  </compound>
+  <compound refid="cbmaggregatorsqlitewriter_8cpp" kind="file"><name>cbmaggregatorsqlitewriter.cpp</name>
+  </compound>
+  <compound refid="cbmbuildlandunitmodule_8cpp" kind="file"><name>cbmbuildlandunitmodule.cpp</name>
+  </compound>
+  <compound refid="cbmdecaymodule_8cpp" kind="file"><name>cbmdecaymodule.cpp</name>
+  </compound>
+  <compound refid="cbmdisturbanceeventmodule_8cpp" kind="file"><name>cbmdisturbanceeventmodule.cpp</name>
+  </compound>
+  <compound refid="cbmdisturbancelistener_8cpp" kind="file"><name>cbmdisturbancelistener.cpp</name>
+  </compound>
+  <compound refid="cbmflataggregatorlandunitdata_8cpp" kind="file"><name>cbmflataggregatorlandunitdata.cpp</name>
+  </compound>
+  <compound refid="cbmlandclasstransitionmodule_8cpp" kind="file"><name>cbmlandclasstransitionmodule.cpp</name>
+  </compound>
+  <compound refid="cbmlandunitdatatransform_8cpp" kind="file"><name>cbmlandunitdatatransform.cpp</name>
+  </compound>
+  <compound refid="cbmpartitioningmodule_8cpp" kind="file"><name>cbmpartitioningmodule.cpp</name>
+  </compound>
+  <compound refid="cbmpeatlandspinupoutput_8cpp" kind="file"><name>cbmpeatlandspinupoutput.cpp</name>
+  </compound>
+  <compound refid="cbmsequencer_8cpp" kind="file"><name>cbmsequencer.cpp</name>
+  </compound>
+  <compound refid="cbmspinupdisturbancemodule_8cpp" kind="file"><name>cbmspinupdisturbancemodule.cpp</name>
+  </compound>
+  <compound refid="cbmspinupsequencer_8cpp" kind="file"><name>cbmspinupsequencer.cpp</name>
+  </compound>
+  <compound refid="cbmtransitionrulesmodule_8cpp" kind="file"><name>cbmtransitionrulesmodule.cpp</name>
+  </compound>
+  <compound refid="componentbiomasscarboncurve_8cpp" kind="file"><name>componentbiomasscarboncurve.cpp</name>
+  </compound>
   <compound refid="democlass_8cpp" kind="file"><name>democlass.cpp</name>
+  </compound>
+  <compound refid="disturbancemonitormodule_8cpp" kind="file"><name>disturbancemonitormodule.cpp</name>
+  </compound>
+  <compound refid="dynamicgrowthcurvelookuptransform_8cpp" kind="file"><name>dynamicgrowthcurvelookuptransform.cpp</name>
+  </compound>
+  <compound refid="dynamicgrowthcurvetransform_8cpp" kind="file"><name>dynamicgrowthcurvetransform.cpp</name>
+  </compound>
+  <compound refid="esgymmodule_8cpp" kind="file"><name>esgymmodule.cpp</name>
+  </compound>
+  <compound refid="esgymspinupsequencer_8cpp" kind="file"><name>esgymspinupsequencer.cpp</name>
+  </compound>
+  <compound refid="flatrecord_8cpp" kind="file"><name>flatrecord.cpp</name>
+  </compound>
+  <compound refid="growthcurvetransform_8cpp" kind="file"><name>growthcurvetransform.cpp</name>
+  </compound>
+  <compound refid="growthmultipliermodule_8cpp" kind="file"><name>growthmultipliermodule.cpp</name>
+  </compound>
+  <compound refid="libraryfactory_8cpp" kind="file"><name>libraryfactory.cpp</name>
+  </compound>
+  <compound refid="lmeval_8cpp" kind="file"><name>lmeval.cpp</name>
+  </compound>
+  <compound refid="lmmin_8cpp" kind="file"><name>lmmin.cpp</name>
+    <member refid="lmmin_8cpp_1a643e0537bce53ecbbbab1d0db857d52c" kind="define"><name>_LMDIF</name></member>
+    <member refid="lmmin_8cpp_1ae92477bf5af64a0486e8b99c45790c9c" kind="define"><name>BUG</name></member>
+    <member refid="lmmin_8cpp_1a01b46cc2cae4eee231acb7702df379db" kind="define"><name>LM_MACHEP</name></member>
+    <member refid="lmmin_8cpp_1a2ee34e0a4f4a4b860c14a8ab07e3cec3" kind="define"><name>LM_DWARF</name></member>
+    <member refid="lmmin_8cpp_1a65e2a867eb21938170bb9a8a850b64ec" kind="define"><name>LM_SQRT_DWARF</name></member>
+    <member refid="lmmin_8cpp_1a057d1d13f0effa33d81c7615e4f3664d" kind="define"><name>LM_SQRT_GIANT</name></member>
+    <member refid="lmmin_8cpp_1a3acffbd305ee72dcd4593c0d8af64a4f" kind="define"><name>MIN</name></member>
+    <member refid="lmmin_8cpp_1afa99ec4acc4ecb2dc3c2d05da15d0e3f" kind="define"><name>MAX</name></member>
+    <member refid="lmmin_8cpp_1aa7866fa5e4e0ee9b034e9dab6599a9cc" kind="define"><name>SQR</name></member>
+  </compound>
+  <compound refid="mossdecaymodule_8cpp" kind="file"><name>mossdecaymodule.cpp</name>
+  </compound>
+  <compound refid="mossdisturbancemodule_8cpp" kind="file"><name>mossdisturbancemodule.cpp</name>
+  </compound>
+  <compound refid="mossgrowthmodule_8cpp" kind="file"><name>mossgrowthmodule.cpp</name>
+  </compound>
+  <compound refid="mossturnovermodule_8cpp" kind="file"><name>mossturnovermodule.cpp</name>
   </compound>
   <compound refid="namespace_8cpp" kind="file"><name>namespace.cpp</name>
   </compound>
   <compound refid="operations_8cpp" kind="file"><name>operations.cpp</name>
     <member refid="operations_8cpp_1a9920dc7dca5851780d0f0e43977bbdc8" kind="function"><name>add</name></member>
     <member refid="operations_8cpp_1a5dff25c0ae84a737bb55b245f86c1973" kind="function"><name>subtract</name></member>
+  </compound>
+  <compound refid="outputerstreamfluxpostnotify_8cpp" kind="file"><name>outputerstreamfluxpostnotify.cpp</name>
+    <member refid="outputerstreamfluxpostnotify_8cpp_1a41b3e0ca6c6acf8b7fd0b00326759718" kind="define"><name>DL_CHR</name></member>
+  </compound>
+  <compound refid="outputerstreampostnotify_8cpp" kind="file"><name>outputerstreampostnotify.cpp</name>
+    <member refid="outputerstreampostnotify_8cpp_1a41b3e0ca6c6acf8b7fd0b00326759718" kind="define"><name>DL_CHR</name></member>
+    <member refid="outputerstreampostnotify_8cpp_1ad24484039944ed6bd4e5e817bc5ccdb0" kind="define"><name>STOCK_PRECISION</name></member>
+  </compound>
+  <compound refid="peatlandaftercbmmodule_8cpp" kind="file"><name>peatlandaftercbmmodule.cpp</name>
+  </compound>
+  <compound refid="peatlanddecaymodule_8cpp" kind="file"><name>peatlanddecaymodule.cpp</name>
+  </compound>
+  <compound refid="peatlanddecayparameters_8cpp" kind="file"><name>peatlanddecayparameters.cpp</name>
+  </compound>
+  <compound refid="peatlanddisturbance_8cpp" kind="file"><name>peatlanddisturbance.cpp</name>
+  </compound>
+  <compound refid="peatlanddisturbancemodule_8cpp" kind="file"><name>peatlanddisturbancemodule.cpp</name>
+  </compound>
+  <compound refid="peatlandfireparameters_8cpp" kind="file"><name>peatlandfireparameters.cpp</name>
+  </compound>
+  <compound refid="peatlandgrowthcurve_8cpp" kind="file"><name>peatlandgrowthcurve.cpp</name>
+  </compound>
+  <compound refid="peatlandgrowthcurvetransform_8cpp" kind="file"><name>peatlandgrowthcurvetransform.cpp</name>
+  </compound>
+  <compound refid="peatlandgrowthmodule_8cpp" kind="file"><name>peatlandgrowthmodule.cpp</name>
+  </compound>
+  <compound refid="peatlandgrowthparameters_8cpp" kind="file"><name>peatlandgrowthparameters.cpp</name>
+  </compound>
+  <compound refid="peatlandparameters_8cpp" kind="file"><name>peatlandparameters.cpp</name>
+  </compound>
+  <compound refid="peatlandspinupnext_8cpp" kind="file"><name>peatlandspinupnext.cpp</name>
+  </compound>
+  <compound refid="peatlandspinupturnovermodule_8cpp" kind="file"><name>peatlandspinupturnovermodule.cpp</name>
+  </compound>
+  <compound refid="peatlandturnovermodule_8cpp" kind="file"><name>peatlandturnovermodule.cpp</name>
+  </compound>
+  <compound refid="peatlandturnovermodulebase_8cpp" kind="file"><name>peatlandturnovermodulebase.cpp</name>
+    <member refid="peatlandturnovermodulebase_8cpp_1a0a0faabdb84971a0a12bec397e68c35c" kind="variable"><name>myMutex</name></member>
+  </compound>
+  <compound refid="peatlandturnoverparameters_8cpp" kind="file"><name>peatlandturnoverparameters.cpp</name>
+  </compound>
+  <compound refid="peatlandwtdbasefch4parameters_8cpp" kind="file"><name>peatlandwtdbasefch4parameters.cpp</name>
+  </compound>
+  <compound refid="perdfactor_8cpp" kind="file"><name>perdfactor.cpp</name>
+  </compound>
+  <compound refid="printpools_8cpp" kind="file"><name>printpools.cpp</name>
+  </compound>
+  <compound refid="record_8cpp" kind="file"><name>record.cpp</name>
+  </compound>
+  <compound refid="smalltreegrowthcurve_8cpp" kind="file"><name>smalltreegrowthcurve.cpp</name>
+  </compound>
+  <compound refid="smalltreegrowthmodule_8cpp" kind="file"><name>smalltreegrowthmodule.cpp</name>
+  </compound>
+  <compound refid="smoother_8cpp" kind="file"><name>smoother.cpp</name>
+  </compound>
+  <compound refid="standbiomasscarboncurve_8cpp" kind="file"><name>standbiomasscarboncurve.cpp</name>
+  </compound>
+  <compound refid="standcomponent_8cpp" kind="file"><name>standcomponent.cpp</name>
+  </compound>
+  <compound refid="standgrowthcurve_8cpp" kind="file"><name>standgrowthcurve.cpp</name>
+  </compound>
+  <compound refid="standgrowthcurvefactory_8cpp" kind="file"><name>standgrowthcurvefactory.cpp</name>
+  </compound>
+  <compound refid="standmaturitymodule_8cpp" kind="file"><name>standmaturitymodule.cpp</name>
+  </compound>
+  <compound refid="timeseries_8cpp" kind="file"><name>timeseries.cpp</name>
+  </compound>
+  <compound refid="timeseriesidxfromflintdatatransform_8cpp" kind="file"><name>timeseriesidxfromflintdatatransform.cpp</name>
+  </compound>
+  <compound refid="transitionruletransform_8cpp" kind="file"><name>transitionruletransform.cpp</name>
+  </compound>
+  <compound refid="treespecies_8cpp" kind="file"><name>treespecies.cpp</name>
+  </compound>
+  <compound refid="treeyieldtable_8cpp" kind="file"><name>treeyieldtable.cpp</name>
+  </compound>
+  <compound refid="volumetobiomasscarbongrowth_8cpp" kind="file"><name>volumetobiomasscarbongrowth.cpp</name>
+  </compound>
+  <compound refid="volumetobiomassconverter_8cpp" kind="file"><name>volumetobiomassconverter.cpp</name>
+  </compound>
+  <compound refid="yieldtablegrowthmodule_8cpp" kind="file"><name>yieldtablegrowthmodule.cpp</name>
   </compound>
   <compound refid="dir_68267d1309a1af8e8297ef4c3efbcdba" kind="dir"><name>/mnt/e/doxy-with-cmake/src</name>
   </compound>
