@@ -7,4 +7,5 @@ Welcome to the sample documentation!
    :caption: Contents:
 
    api/namespace
+   api/ageclass
 

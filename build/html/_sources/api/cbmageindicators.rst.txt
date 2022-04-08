@@ -1,0 +1,5 @@
+CBMAgeIndicators
+++++++++++++++++
+
+.. doxygenclass:: moja::modules::cbm::CBMAgeIndicators
+   :project: sample
