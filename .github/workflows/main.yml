@@ -11,14 +11,6 @@ jobs:
 
     - name: Vale
       uses: errata-ai/vale-action@v1
-      with:
-        # Optional
-        styles: |
-          https://github.com/errata-ai/Microsoft/releases/latest/download/Microsoft.zip
-          https://github.com/errata-ai/write-good/releases/latest/download/write-good.zip
-
-        # Optional
-        config: .vale.ini
       env:
         # Required, set by GitHub actions automatically:
         # https://docs.github.com/en/actions/security-guides/automatic-token-authentication#about-the-github_token-secret
