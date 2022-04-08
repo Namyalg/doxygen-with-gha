@@ -4,9 +4,9 @@
     <compoundname>one</compoundname>
     <innernamespace refid="namespaceone_1_1two">one::two</innernamespace>
       <sectiondef kind="func">
-      <memberdef kind="function" id="namespace_8cpp_1a83ec783b4b434337aae32fa5a1eaa363" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="namespaceone_1a20b419396fa62e6a1fc71b60e619ce9c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
-        <definition>void one::location_one</definition>
+        <definition>void location_one</definition>
         <argsstring>()</argsstring>
         <name>location_one</name>
         <briefdescription>
@@ -19,13 +19,13 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/mnt/e/doxy-with-cmake/src/namespace.cpp" line="69" column="10" bodyfile="/mnt/e/doxy-with-cmake/src/namespace.cpp" bodystart="69" bodyend="71"/>
+        <location file="/mnt/e/doxy-with-cmake/src/namespace.cpp" line="79" column="10" bodyfile="/mnt/e/doxy-with-cmake/src/namespace.cpp" bodystart="79" bodyend="81" declfile="/mnt/e/doxy-with-cmake/include/namespace.h" declline="13" declcolumn="10"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/mnt/e/doxy-with-cmake/src/namespace.cpp" line="46" column="1"/>
+    <location file="/mnt/e/doxy-with-cmake/src/namespace.cpp" line="47" column="1"/>
   </compounddef>
 </doxygen>

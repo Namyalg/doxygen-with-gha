@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['subtract_36',['subtract',['../operations_8cpp.html#a5dff25c0ae84a737bb55b245f86c1973',1,'operations.cpp']]]
+  ['name_29',['name',['../classone_1_1two_1_1three_1_1name.html#a4b516aaa5fa38da4fed24ab6001627e2',1,'one::two::three::name']]]
 ];

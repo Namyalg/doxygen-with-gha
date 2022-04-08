@@ -1,0 +1,26 @@
+\hypertarget{democlass_8cpp}{}\doxysection{/mnt/e/doxy-\/with-\/cmake/src/democlass.cpp File Reference}
+\label{democlass_8cpp}\index{/mnt/e/doxy-\/with-\/cmake/src/democlass.cpp@{/mnt/e/doxy-\/with-\/cmake/src/democlass.cpp}}
+
+
+Testing namespaces.  
+
+
+{\ttfamily \#include \char`\"{}./include/democlass.\+h\char`\"{}}\newline
+{\ttfamily \#include $<$iostream$>$}\newline
+Include dependency graph for democlass.\+cpp\+:
+% FIG 0
+\doxysubsection*{Namespaces}
+\begin{DoxyCompactItemize}
+\item 
+ \mbox{\hyperlink{namespacea}{a}}
+\item 
+ \mbox{\hyperlink{namespacea_1_1b}{a\+::b}}
+\item 
+ \mbox{\hyperlink{namespacea_1_1b_1_1c}{a\+::b\+::c}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Testing namespaces. 
+
+Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"{} 

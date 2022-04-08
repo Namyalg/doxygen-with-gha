@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['subtract_3',['subtract',['../operations_8cpp.html#a5dff25c0ae84a737bb55b245f86c1973',1,'operations.cpp']]]
+  ['irecoveryrule_6',['IRecoveryRule',['../classmoja_1_1modules_1_1cbm_1_1IRecoveryRule.html',1,'moja::modules::cbm']]]
 ];

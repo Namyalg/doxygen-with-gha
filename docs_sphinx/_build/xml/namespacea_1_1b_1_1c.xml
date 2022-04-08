@@ -3,10 +3,11 @@
   <compounddef id="namespacea_1_1b_1_1c" kind="namespace" language="C++">
     <compoundname>a::b::c</compoundname>
     <innerclass refid="classa_1_1b_1_1c_1_1test" prot="public">a::b::c::test</innerclass>
+    <innerclass refid="classa_1_1b_1_1c_1_1pls" prot="public">a::b::c::pls</innerclass>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/mnt/e/doxy-with-cmake/src/democlass.cpp" line="81" column="9"/>
+    <location file="/mnt/e/doxy-with-cmake/src/democlass.cpp" line="17" column="9"/>
   </compounddef>
 </doxygen>

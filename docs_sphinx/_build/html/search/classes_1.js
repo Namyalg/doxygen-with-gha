@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['carbonrecoveryrule_19',['CarbonRecoveryRule',['../classmoja_1_1modules_1_1cbm_1_1CarbonRecoveryRule.html',1,'moja::modules::cbm']]],
-  ['cbmobjectholder_20',['CBMObjectHolder',['../structmoja_1_1modules_1_1CBMObjectHolder.html',1,'moja::modules']]]
+  ['pls_16',['pls',['../classa_1_1b_1_1c_1_1pls.html',1,'a::b::c']]]
 ];

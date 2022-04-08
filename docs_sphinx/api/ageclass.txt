@@ -1,0 +1,18 @@
+AgeClassHelper
+++++++++++++++
+
+.. .. doxygenfile:: ageclasshelper.cpp
+..    :project: sample
+
+.. doxygenfile:: ageclasshelper.h
+   :project: sample
+
+.. .. doxygenfunction:: AgeClassHelper
+..    :project: sample
+
+.. .. doxygenfunction:: generateAgeClasses
+..    :project: sample
+
+.. .. when there are 2 ambiguous functions use this to resolve the functions
+.. .. doxygenfunction:: moja::modules::cbm::AgeClassHelper::getAgeClasses
+..    :project: sample

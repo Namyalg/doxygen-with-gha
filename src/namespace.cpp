@@ -40,7 +40,8 @@
  * voluptate velit esse quam nihil molestiae consequatur, vel illum qui 
  * dolorem eum fugiat quo voluptas nulla pariatur?"
  * ***********************/
-#include "../include/moja/modules/cbm/namespace.h"
+
+#include "./include/namespace.h"
 #include<iostream>
 
 namespace one{
@@ -53,6 +54,15 @@ namespace one{
             void location_three(){
                 std::cout<< "Prints namespace 3 " << "\n";
             }
+            /**
+             * @brief This is the constructor.
+             * @param None
+             * @return void
+             * ****************/
+             name::name(){
+                 std::cout << "Constructor for class name ";
+             }
+
         }
          /**
              * @brief Prints namespace 2.

@@ -1,5 +1,8 @@
 Namespace
 +++++++++
 
-.. doxygenfile:: namespace.cpp
+.. doxygenfile:: main.cpp 
+   :project: sample
+
+.. doxygenclass:: a::b::c::pls
    :project: sample
