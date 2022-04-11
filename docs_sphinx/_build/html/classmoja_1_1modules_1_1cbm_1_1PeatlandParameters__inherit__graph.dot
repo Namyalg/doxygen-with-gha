@@ -1,0 +1,18 @@
+digraph "PeatlandParameters"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="PeatlandParameters",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="PeatlandDecayParameters",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoja_1_1modules_1_1cbm_1_1PeatlandDecayParameters.html",tooltip=" "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="PeatlandFireParameters",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoja_1_1modules_1_1cbm_1_1PeatlandFireParameters.html",tooltip=" "];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="PeatlandGrowthParameters",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoja_1_1modules_1_1cbm_1_1PeatlandGrowthParameters.html",tooltip=" "];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="PeatlandTurnoverParameters",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoja_1_1modules_1_1cbm_1_1PeatlandTurnoverParameters.html",tooltip=" "];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="PeatlandWTDBaseFCH4Parameters",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoja_1_1modules_1_1cbm_1_1PeatlandWTDBaseFCH4Parameters.html",tooltip=" "];
+}
