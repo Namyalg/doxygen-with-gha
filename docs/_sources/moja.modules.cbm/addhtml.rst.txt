@@ -1,0 +1,16 @@
+Add a feedback form
++++++++++++++++++++
+
+.. raw:: html
+
+    <h3> Was the documentation helpful ? </h3>
+    <button onclick="hello()">Click</button><br>
+    
+
+    <script>
+        function myFunction() {
+        alert("I am an alert box!");
+        }
+    </script>
+
+    <button onclick="myFunction()">Try it</button>
