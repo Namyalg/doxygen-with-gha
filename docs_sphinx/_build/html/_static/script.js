@@ -6,8 +6,8 @@ function saveFeedback(){
     let msg = document.getElementById('message').value
     data.append('message', msg)            
     data.append('url', window.location.href)
-    data.append('timestamp', utcStr)
-    
+    data.append('timestamp', new Date())
+
     console.log(data)
     fetch(scriptURL, { method: 'POST', body: data})
     .then(response => alert("Feedback saved successfully"))
