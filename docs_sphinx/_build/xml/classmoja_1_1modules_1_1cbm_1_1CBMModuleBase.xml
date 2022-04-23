@@ -33,6 +33,7 @@
     <derivedcompoundref refid="classmoja_1_1modules_1_1cbm_1_1PeatlandPrepareModule" prot="public" virt="non-virtual">PeatlandPrepareModule</derivedcompoundref>
     <derivedcompoundref refid="classmoja_1_1modules_1_1cbm_1_1PeatlandSpinupNext" prot="public" virt="non-virtual">PeatlandSpinupNext</derivedcompoundref>
     <derivedcompoundref refid="classmoja_1_1modules_1_1cbm_1_1PeatlandTurnoverModuleBase" prot="public" virt="non-virtual">PeatlandTurnoverModuleBase</derivedcompoundref>
+    <derivedcompoundref refid="classmoja_1_1modules_1_1cbm_1_1SawtoothModule" prot="public" virt="non-virtual">SawtoothModule</derivedcompoundref>
     <derivedcompoundref refid="classmoja_1_1modules_1_1cbm_1_1SmallTreeGrowthModule" prot="public" virt="non-virtual">SmallTreeGrowthModule</derivedcompoundref>
     <derivedcompoundref refid="classmoja_1_1modules_1_1cbm_1_1StandMaturityModule" prot="public" virt="non-virtual">StandMaturityModule</derivedcompoundref>
     <derivedcompoundref refid="classmoja_1_1modules_1_1cbm_1_1YieldTableGrowthModule" prot="public" virt="non-virtual">YieldTableGrowthModule</derivedcompoundref>

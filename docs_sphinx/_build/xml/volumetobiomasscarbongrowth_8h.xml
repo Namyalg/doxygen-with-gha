@@ -12,7 +12,7 @@
     <includes refid="rootbiomasscarbonincrement_8h" local="yes">moja/modules/cbm/rootbiomasscarbonincrement.h</includes>
     <includes refid="foresttypeconfiguration_8h" local="yes">moja/modules/cbm/foresttypeconfiguration.h</includes>
     <includes local="no">Poco/LRUCache.h</includes>
-    <includedby refid="libraryfactory_8cpp" local="yes">/mnt/e/moja.canada/Source/moja.modules.cbm/src/libraryfactory.cpp</includedby>
+    <includedby refid="moja_8modules_8cbm_2src_2libraryfactory_8cpp" local="yes">/mnt/e/moja.canada/Source/moja.modules.cbm/src/libraryfactory.cpp</includedby>
     <includedby refid="volumetobiomasscarbongrowth_8cpp" local="yes">/mnt/e/moja.canada/Source/moja.modules.cbm/src/volumetobiomasscarbongrowth.cpp</includedby>
     <includedby refid="cbmtransitionrulesmodule_8h" local="yes">/mnt/e/moja.canada/Source/moja.modules.cbm/include/moja/modules/cbm/cbmtransitionrulesmodule.h</includedby>
     <includedby refid="smalltreegrowthmodule_8h" local="yes">/mnt/e/moja.canada/Source/moja.modules.cbm/include/moja/modules/cbm/smalltreegrowthmodule.h</includedby>

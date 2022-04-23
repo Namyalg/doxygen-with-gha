@@ -10,7 +10,7 @@
     <includes local="no">atomic</includes>
     <includes local="no">map</includes>
     <includedby refid="dynamicgrowthcurvetransform_8cpp" local="yes">/mnt/e/moja.canada/Source/moja.modules.cbm/src/dynamicgrowthcurvetransform.cpp</includedby>
-    <includedby refid="libraryfactory_8cpp" local="yes">/mnt/e/moja.canada/Source/moja.modules.cbm/src/libraryfactory.cpp</includedby>
+    <includedby refid="moja_8modules_8cbm_2src_2libraryfactory_8cpp" local="yes">/mnt/e/moja.canada/Source/moja.modules.cbm/src/libraryfactory.cpp</includedby>
     <incdepgraph>
       <node id="7">
         <label>atomic</label>

@@ -7,3 +7,4 @@ Welcome to the GCBM documentation
    :caption: Contents:
    
    moja.modules.cbm/index
+

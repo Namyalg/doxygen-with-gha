@@ -15,5 +15,11 @@ Test heading
     <button onclick="no()" float="left">No</button><br>
     <br><br>
     <h3>Any feedback ? </h3>
-    <textarea rows="3" cols="50"></textarea>
-    <br>
+   <div>
+      <label for="name" class="form-label">Message</label>
+      <input type="text" id="message" name="message" placeholder="Enter the message" required>
+      <br>
+      <br>
+      <button onclick="saveFeedback()">Submit feedback</button>
+      <br>
+   </div>

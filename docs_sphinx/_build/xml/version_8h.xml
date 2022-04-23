@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
   <compounddef id="version_8h" kind="file" language="C++">
     <compoundname>version.h</compoundname>
-    <includedby refid="libraryfactory_8cpp" local="yes">/mnt/e/moja.canada/Source/moja.modules.cbm/src/libraryfactory.cpp</includedby>
+    <includedby refid="moja_8modules_8cbm_2src_2libraryfactory_8cpp" local="yes">/mnt/e/moja.canada/Source/moja.modules.cbm/src/libraryfactory.cpp</includedby>
       <sectiondef kind="define">
       <memberdef kind="define" id="version_8h_1abe0e932e29d72dbb4115c6cb13fade21" prot="public" static="no">
         <name>CBM_VERSION</name>

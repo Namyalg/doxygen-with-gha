@@ -6,7 +6,7 @@
     <includes local="yes">moja/datarepository/iproviderrelationalinterface.h</includes>
     <includes local="yes">moja/flint/ilandunitcontroller.h</includes>
     <includedby refid="cbmlandunitdatatransform_8cpp" local="yes">/mnt/e/moja.canada/Source/moja.modules.cbm/src/cbmlandunitdatatransform.cpp</includedby>
-    <includedby refid="libraryfactory_8cpp" local="yes">/mnt/e/moja.canada/Source/moja.modules.cbm/src/libraryfactory.cpp</includedby>
+    <includedby refid="moja_8modules_8cbm_2src_2libraryfactory_8cpp" local="yes">/mnt/e/moja.canada/Source/moja.modules.cbm/src/libraryfactory.cpp</includedby>
     <incdepgraph>
       <node id="2">
         <label>moja/flint/itransform.h</label>

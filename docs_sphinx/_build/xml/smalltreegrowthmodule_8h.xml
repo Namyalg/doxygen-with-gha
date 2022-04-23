@@ -12,7 +12,7 @@
     <includes refid="smalltreegrowthcurve_8h" local="yes">moja/modules/cbm/smalltreegrowthcurve.h</includes>
     <includes refid="turnoverrates_8h" local="yes">moja/modules/cbm/turnoverrates.h</includes>
     <includes refid="peatlands_8h" local="yes">moja/modules/cbm/peatlands.h</includes>
-    <includedby refid="libraryfactory_8cpp" local="yes">/mnt/e/moja.canada/Source/moja.modules.cbm/src/libraryfactory.cpp</includedby>
+    <includedby refid="moja_8modules_8cbm_2src_2libraryfactory_8cpp" local="yes">/mnt/e/moja.canada/Source/moja.modules.cbm/src/libraryfactory.cpp</includedby>
     <includedby refid="smalltreegrowthmodule_8cpp" local="yes">/mnt/e/moja.canada/Source/moja.modules.cbm/src/smalltreegrowthmodule.cpp</includedby>
     <incdepgraph>
       <node id="2">

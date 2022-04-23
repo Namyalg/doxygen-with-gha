@@ -6,7 +6,7 @@
     <innernamespace refid="namespacemoja_1_1modules_1_1cbm">moja::modules::cbm</innernamespace>
     <innernamespace refid="namespacemoja_1_1modules_1_1CBM">moja::modules::CBM</innernamespace>
       <sectiondef kind="var">
-      <memberdef kind="variable" id="libraryfactory_8cpp_1af35b4fda16d2851eb222c7e82153d10a" prot="public" static="yes" mutable="no">
+      <memberdef kind="variable" id="moja_8modules_8cbm_2src_2libraryfactory_8cpp_1af35b4fda16d2851eb222c7e82153d10a" prot="public" static="yes" mutable="no">
         <type>CBMObjectHolder</type>
         <definition>CBMObjectHolder cbmObjectHolder</definition>
         <argsstring></argsstring>
@@ -21,7 +21,7 @@
       </memberdef>
       </sectiondef>
       <sectiondef kind="func">
-      <memberdef kind="function" id="libraryfactory_8cpp_1acc347d3ada9f99f6e7c5a52f7fdb358f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="moja_8modules_8cbm_2src_2libraryfactory_8cpp_1acc347d3ada9f99f6e7c5a52f7fdb358f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MOJA_LIB_API flint::IModule *</type>
         <definition>MOJA_LIB_API flint::IModule* moja::modules::CreateCBMAggregatorLandUnitData</definition>
         <argsstring>()</argsstring>
@@ -34,7 +34,7 @@
         </inbodydescription>
         <location file="/mnt/e/moja.canada/Source/moja.modules.cbm/src/libraryfactory.cpp" line="129" column="29" bodyfile="/mnt/e/moja.canada/Source/moja.modules.cbm/src/libraryfactory.cpp" bodystart="129" bodyend="147"/>
       </memberdef>
-      <memberdef kind="function" id="libraryfactory_8cpp_1acda1acbaf04a46712c299750a88a8ff5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="moja_8modules_8cbm_2src_2libraryfactory_8cpp_1acda1acbaf04a46712c299750a88a8ff5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MOJA_LIB_API flint::IModule *</type>
         <definition>MOJA_LIB_API flint::IModule* moja::modules::CreateCBMAggregatorSQLiteWriter</definition>
         <argsstring>()</argsstring>
@@ -47,7 +47,7 @@
         </inbodydescription>
         <location file="/mnt/e/moja.canada/Source/moja.modules.cbm/src/libraryfactory.cpp" line="149" column="29" bodyfile="/mnt/e/moja.canada/Source/moja.modules.cbm/src/libraryfactory.cpp" bodystart="149" bodyend="168"/>
       </memberdef>
-      <memberdef kind="function" id="libraryfactory_8cpp_1a1a1b98d3fdffd42ec905417d524a3177" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="moja_8modules_8cbm_2src_2libraryfactory_8cpp_1a1a1b98d3fdffd42ec905417d524a3177" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MOJA_LIB_API flint::IModule *</type>
         <definition>MOJA_LIB_API flint::IModule* moja::modules::CreateCBMFlatAggregatorLandUnitData</definition>
         <argsstring>()</argsstring>
@@ -60,7 +60,7 @@
         </inbodydescription>
         <location file="/mnt/e/moja.canada/Source/moja.modules.cbm/src/libraryfactory.cpp" line="170" column="29" bodyfile="/mnt/e/moja.canada/Source/moja.modules.cbm/src/libraryfactory.cpp" bodystart="170" bodyend="179"/>
       </memberdef>
-      <memberdef kind="function" id="libraryfactory_8cpp_1a3015c60cac3d5745f0f9ef42031a3c85" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="moja_8modules_8cbm_2src_2libraryfactory_8cpp_1a3015c60cac3d5745f0f9ef42031a3c85" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MOJA_LIB_API flint::IModule *</type>
         <definition>MOJA_LIB_API flint::IModule* moja::modules::CreateCBMAggregatorCsvWriter</definition>
         <argsstring>()</argsstring>
@@ -73,7 +73,7 @@
         </inbodydescription>
         <location file="/mnt/e/moja.canada/Source/moja.modules.cbm/src/libraryfactory.cpp" line="181" column="29" bodyfile="/mnt/e/moja.canada/Source/moja.modules.cbm/src/libraryfactory.cpp" bodystart="181" bodyend="191"/>
       </memberdef>
-      <memberdef kind="function" id="libraryfactory_8cpp_1ae2f062c9759954f52e3b3426dbfc337d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="moja_8modules_8cbm_2src_2libraryfactory_8cpp_1ae2f062c9759954f52e3b3426dbfc337d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MOJA_LIB_API flint::IModule *</type>
         <definition>MOJA_LIB_API flint::IModule* moja::modules::CreateCBMAggregatorPostgreSQLWriter</definition>
         <argsstring>()</argsstring>
@@ -86,7 +86,7 @@
         </inbodydescription>
         <location file="/mnt/e/moja.canada/Source/moja.modules.cbm/src/libraryfactory.cpp" line="193" column="29" bodyfile="/mnt/e/moja.canada/Source/moja.modules.cbm/src/libraryfactory.cpp" bodystart="193" bodyend="212"/>
       </memberdef>
-      <memberdef kind="function" id="libraryfactory_8cpp_1af667e7c4316562811c9f56180e04d98e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="moja_8modules_8cbm_2src_2libraryfactory_8cpp_1af667e7c4316562811c9f56180e04d98e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MOJA_LIB_API flint::IModule *</type>
         <definition>MOJA_LIB_API flint::IModule* moja::modules::CreateCBMAggregatorLibPQXXWriter</definition>
         <argsstring>()</argsstring>
@@ -99,7 +99,7 @@
         </inbodydescription>
         <location file="/mnt/e/moja.canada/Source/moja.modules.cbm/src/libraryfactory.cpp" line="214" column="29" bodyfile="/mnt/e/moja.canada/Source/moja.modules.cbm/src/libraryfactory.cpp" bodystart="214" bodyend="233"/>
       </memberdef>
-      <memberdef kind="function" id="libraryfactory_8cpp_1a2d71e45896d586e5767dadef1fd40810" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="moja_8modules_8cbm_2src_2libraryfactory_8cpp_1a2d71e45896d586e5767dadef1fd40810" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MOJA_LIB_API int</type>
         <definition>MOJA_LIB_API int getModuleRegistrations</definition>
         <argsstring>(moja::flint::ModuleRegistration *outModuleRegistrations)</argsstring>
@@ -109,16 +109,17 @@
           <declname>outModuleRegistrations</declname>
         </param>
         <briefdescription>
+<para>Unmangled function in extern &quot;C&quot;. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/mnt/e/moja.canada/Source/moja.modules.cbm/src/libraryfactory.cpp" line="235" column="18" bodyfile="/mnt/e/moja.canada/Source/moja.modules.cbm/src/libraryfactory.cpp" bodystart="235" bodyend="277" declfile="/mnt/e/moja.canada/Source/moja.modules.cbm/include/moja/modules/cbm/libraryfactory.h" declline="9" declcolumn="29"/>
+        <location file="/mnt/e/moja.canada/Source/moja.modules.cbm/src/libraryfactory.cpp" line="235" column="18" bodyfile="/mnt/e/moja.canada/Source/moja.modules.cbm/src/libraryfactory.cpp" bodystart="235" bodyend="277" declfile="/mnt/e/moja.canada/Source/moja.modules.sawtooth/include/moja/modules/sawtooth/libraryfactory.h" declline="9" declcolumn="29"/>
       </memberdef>
-      <memberdef kind="function" id="libraryfactory_8cpp_1a9b6d13f93007ac9b7b594de0bf31ee06" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="moja_8modules_8cbm_2src_2libraryfactory_8cpp_1a6547ab4c56a6d603b3df7c1027fe18b2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MOJA_LIB_API int</type>
-        <definition>MOJA_LIB_API int moja::modules::getTransformRegistrations</definition>
+        <definition>MOJA_LIB_API int getTransformRegistrations</definition>
         <argsstring>(flint::TransformRegistration *outTransformRegistrations)</argsstring>
         <name>getTransformRegistrations</name>
         <param>
@@ -126,14 +127,27 @@
           <declname>outTransformRegistrations</declname>
         </param>
         <briefdescription>
+<para>Unmangled function in extern &quot;C&quot;. </para>
         </briefdescription>
         <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>outTransformRegistrations</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>TransformRegistration*. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>int </para>
+</simplesect>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="/mnt/e/moja.canada/Source/moja.modules.cbm/src/libraryfactory.cpp" line="279" column="18" bodyfile="/mnt/e/moja.canada/Source/moja.modules.cbm/src/libraryfactory.cpp" bodystart="279" bodyend="289"/>
       </memberdef>
-      <memberdef kind="function" id="libraryfactory_8cpp_1a1be8398fbf2a7e40b37cfbbae3604d4e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="moja_8modules_8cbm_2src_2libraryfactory_8cpp_1a1be8398fbf2a7e40b37cfbbae3604d4e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MOJA_LIB_API int</type>
         <definition>MOJA_LIB_API int getFlintDataRegistrations</definition>
         <argsstring>(moja::flint::FlintDataRegistration *outFlintDataRegistrations)</argsstring>
@@ -148,11 +162,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/mnt/e/moja.canada/Source/moja.modules.cbm/src/libraryfactory.cpp" line="291" column="18" bodyfile="/mnt/e/moja.canada/Source/moja.modules.cbm/src/libraryfactory.cpp" bodystart="291" bodyend="294" declfile="/mnt/e/moja.canada/Source/moja.modules.cbm/include/moja/modules/cbm/libraryfactory.h" declline="11" declcolumn="29"/>
+        <location file="/mnt/e/moja.canada/Source/moja.modules.cbm/src/libraryfactory.cpp" line="291" column="18" bodyfile="/mnt/e/moja.canada/Source/moja.modules.cbm/src/libraryfactory.cpp" bodystart="291" bodyend="294" declfile="/mnt/e/moja.canada/Source/moja.modules.sawtooth/include/moja/modules/sawtooth/libraryfactory.h" declline="11" declcolumn="29"/>
       </memberdef>
-      <memberdef kind="function" id="libraryfactory_8h_1a0effb7742404269171b08f612ba2a577" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="moja_8modules_8cbm_2include_2moja_2modules_2cbm_2libraryfactory_8h_1aca84f60e65df3287ca7d437be6ab14f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MOJA_LIB_API int</type>
-        <definition>MOJA_LIB_API int moja::modules::getTransformRegistrations</definition>
+        <definition>MOJA_LIB_API int getTransformRegistrations</definition>
         <argsstring>(moja::flint::TransformRegistration *outTransformRegistrations)</argsstring>
         <name>getTransformRegistrations</name>
         <param>

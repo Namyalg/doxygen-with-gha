@@ -10,6 +10,7 @@
     <includedby refid="smalltreegrowthmodule_8h" local="yes">/mnt/e/moja.canada/Source/moja.modules.cbm/include/moja/modules/cbm/smalltreegrowthmodule.h</includedby>
     <includedby refid="standcomponent_8h" local="yes">/mnt/e/moja.canada/Source/moja.modules.cbm/include/moja/modules/cbm/standcomponent.h</includedby>
     <includedby refid="yieldtablegrowthmodule_8h" local="yes">/mnt/e/moja.canada/Source/moja.modules.cbm/include/moja/modules/cbm/yieldtablegrowthmodule.h</includedby>
+    <includedby refid="sawtoothmodule_8h" local="yes">/mnt/e/moja.canada/Source/moja.modules.sawtooth/include/moja/modules/sawtooth/sawtoothmodule.h</includedby>
     <incdepgraph>
       <node id="2">
         <label>moja/modules/cbm/_modules.cbm_exports.h</label>
@@ -75,6 +76,10 @@
         <childnode refid="8" relation="include">
         </childnode>
       </node>
+      <node id="18">
+        <label>/mnt/e/moja.canada/Source/moja.modules.sawtooth/include/moja/modules/sawtooth/sawtoothmodule.h</label>
+        <link refid="sawtoothmodule_8h_source"/>
+      </node>
       <node id="7">
         <label>/mnt/e/moja.canada/Source/moja.modules.cbm/include/moja/modules/cbm/volumetobiomassconverter.h</label>
         <link refid="volumetobiomassconverter_8h_source"/>
@@ -139,6 +144,8 @@
         <childnode refid="16" relation="include">
         </childnode>
         <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
         </childnode>
       </node>
       <node id="12">

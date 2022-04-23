@@ -9,7 +9,7 @@
     <includes refid="volumetobiomasscarbongrowth_8h" local="yes">moja/modules/cbm/volumetobiomasscarbongrowth.h</includes>
     <includes local="no">unordered_map</includes>
     <includedby refid="cbmtransitionrulesmodule_8cpp" local="yes">/mnt/e/moja.canada/Source/moja.modules.cbm/src/cbmtransitionrulesmodule.cpp</includedby>
-    <includedby refid="libraryfactory_8cpp" local="yes">/mnt/e/moja.canada/Source/moja.modules.cbm/src/libraryfactory.cpp</includedby>
+    <includedby refid="moja_8modules_8cbm_2src_2libraryfactory_8cpp" local="yes">/mnt/e/moja.canada/Source/moja.modules.cbm/src/libraryfactory.cpp</includedby>
     <incdepgraph>
       <node id="9">
         <label>moja/modules/cbm/_modules.cbm_exports.h</label>

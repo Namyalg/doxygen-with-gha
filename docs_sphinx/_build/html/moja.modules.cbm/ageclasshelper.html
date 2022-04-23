@@ -45,7 +45,7 @@
 <li class="toctree-l1 current"><a class="reference internal" href="index.html">Moja Modules CBM</a><ul class="current">
 <li class="toctree-l2 current"><a class="current reference internal" href="#">AgeClassHelper</a></li>
 <li class="toctree-l2"><a class="reference internal" href="cbmageindicators.html">CBMAgeIndicators</a></li>
-<li class="toctree-l2"><a class="reference internal" href="cbmaggregatorcsvwriter.html">Cbm Aggregator Csv Writer</a></li>
+<li class="toctree-l2"><a class="reference internal" href="cbmaggregatorcsvwriter.html">CbmAggregatorCsvWriter</a></li>
 </ul>
 </li>
 </ul>
@@ -153,14 +153,20 @@
 </div>
 </dd></dl>
 
-<h3> Was the documentation helpful ? </h3>
-<button onclick="yes()" float="left">Yes</button>
+ <h3> Was the documentation helpful ? </h3>
+ <button onclick="yes()" float="left">Yes</button>
 
-<button onclick="no()" float="left">No</button><br>
-<br><br>
-<h3>Any feedback ? </h3>
-<textarea rows="3" cols="50"></textarea>
-<br></section>
+ <button onclick="no()" float="left">No</button><br>
+ <br><br>
+ <h3>Any feedback ? </h3>
+<div>
+   <label for="name" class="form-label">Message</label>
+   <input type="text" id="message" name="message" placeholder="Enter the message" required>
+   <br>
+   <br>
+   <button onclick="saveFeedback()">Submit feedback</button>
+   <br>
+</div></section>
 
 
            </div>

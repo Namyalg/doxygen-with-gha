@@ -9,7 +9,7 @@
     <includes local="no">boost/algorithm/string.hpp</includes>
     <includes local="no">unordered_map</includes>
     <includedby refid="growthmultipliermodule_8cpp" local="yes">/mnt/e/moja.canada/Source/moja.modules.cbm/src/growthmultipliermodule.cpp</includedby>
-    <includedby refid="libraryfactory_8cpp" local="yes">/mnt/e/moja.canada/Source/moja.modules.cbm/src/libraryfactory.cpp</includedby>
+    <includedby refid="moja_8modules_8cbm_2src_2libraryfactory_8cpp" local="yes">/mnt/e/moja.canada/Source/moja.modules.cbm/src/libraryfactory.cpp</includedby>
     <incdepgraph>
       <node id="10">
         <label>boost/algorithm/string.hpp</label>

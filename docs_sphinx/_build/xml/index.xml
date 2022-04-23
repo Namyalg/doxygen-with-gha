@@ -874,6 +874,19 @@
     <member refid="classmoja_1_1modules_1_1cbm_1_1DynamicGrowthCurveTransform_1addabc6652d4da9568f35b9e26bb1c52a" kind="function"><name>controllerChanged</name></member>
     <member refid="classmoja_1_1modules_1_1cbm_1_1DynamicGrowthCurveTransform_1acc7847461d4937f4e9afdc49c5f0a7bf" kind="function"><name>value</name></member>
   </compound>
+  <compound refid="structmoja_1_1modules_1_1cbm_1_1Environment__data" kind="struct"><name>moja::modules::cbm::Environment_data</name>
+    <member refid="structmoja_1_1modules_1_1cbm_1_1Environment__data_1a1818a0c65b73e92f448abe970180270e" kind="variable"><name>tmean_ann</name></member>
+    <member refid="structmoja_1_1modules_1_1cbm_1_1Environment__data_1a65c7da3dd48d989698ad9ac609962fba" kind="variable"><name>tmin_ann</name></member>
+    <member refid="structmoja_1_1modules_1_1cbm_1_1Environment__data_1acbb3db30130ee3652ef810f17f8f6dba" kind="variable"><name>tmean_gs</name></member>
+    <member refid="structmoja_1_1modules_1_1cbm_1_1Environment__data_1a3f9e2accadcc80e6879bc53a79bb9a4f" kind="variable"><name>etp_gs</name></member>
+    <member refid="structmoja_1_1modules_1_1cbm_1_1Environment__data_1aeef845c7562979f0dce8f21647f4be30" kind="variable"><name>ws_gs</name></member>
+    <member refid="structmoja_1_1modules_1_1cbm_1_1Environment__data_1a2f02b310c2681c4967c132d1613626e8" kind="variable"><name>etp_gs_z</name></member>
+    <member refid="structmoja_1_1modules_1_1cbm_1_1Environment__data_1a22afe93c5e13fbc2e126a453cb18fbf2" kind="variable"><name>ws_gs_z</name></member>
+    <member refid="structmoja_1_1modules_1_1cbm_1_1Environment__data_1ab310d7b566df857060dd916564e003da" kind="variable"><name>etp_gs_n</name></member>
+    <member refid="structmoja_1_1modules_1_1cbm_1_1Environment__data_1aa0f19af5355f8ef954b69646933733eb" kind="variable"><name>ws_gs_n</name></member>
+    <member refid="structmoja_1_1modules_1_1cbm_1_1Environment__data_1a5a9fef097021e31d4d56a1fea8dfc26c" kind="variable"><name>ca</name></member>
+    <member refid="structmoja_1_1modules_1_1cbm_1_1Environment__data_1ab72fd6a4915efc90cf89a03b9640cf65" kind="variable"><name>ndep</name></member>
+  </compound>
   <compound refid="classmoja_1_1modules_1_1cbm_1_1ErrorRecord" kind="class"><name>moja::modules::cbm::ErrorRecord</name>
     <member refid="classmoja_1_1modules_1_1cbm_1_1ErrorRecord_1ae059dfbd9014bb0672749a5fdb785c6e" kind="variable"><name>_hash</name></member>
     <member refid="classmoja_1_1modules_1_1cbm_1_1ErrorRecord_1a2fb68a5ecd23366882be5277b8ac3c65" kind="variable"><name>_id</name></member>
@@ -2180,6 +2193,134 @@
     <member refid="structmoja_1_1modules_1_1cbm_1_1RootProportions_1af137ad6b08f4629988d072109488cdc5" kind="variable"><name>fine</name></member>
     <member refid="structmoja_1_1modules_1_1cbm_1_1RootProportions_1a7720b9bbf6a15ac7f25894eefbe092de" kind="variable"><name>coarse</name></member>
   </compound>
+  <compound refid="classmoja_1_1modules_1_1cbm_1_1SawtoothMatrixWrapper" kind="class"><name>moja::modules::cbm::SawtoothMatrixWrapper</name>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1SawtoothMatrixWrapper_1ae11911850f13d68e6a4ca0a69d2fcf25" kind="variable"><name>Mat</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1SawtoothMatrixWrapper_1a37cee6ca456a0aba7c740d1e03763f69" kind="variable"><name>Values</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1SawtoothMatrixWrapper_1ae58157398761956202d5009a326c980c" kind="function"><name>SawtoothMatrixWrapper</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1SawtoothMatrixWrapper_1a946514095f045d0a331bbb61a6d182da" kind="function"><name>SawtoothMatrixWrapper</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1SawtoothMatrixWrapper_1a9d774a8dae948f556c37c27aa18f4c1d" kind="function"><name>Get</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1SawtoothMatrixWrapper_1a8f6b1b354403ab2353be7cf675463628" kind="function"><name>GetValue</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1SawtoothMatrixWrapper_1ac4ede7c7e309c207402a6c60fb8f20e7" kind="function"><name>SetValue</name></member>
+  </compound>
+  <compound refid="classmoja_1_1modules_1_1cbm_1_1SawtoothModule" kind="class"><name>moja::modules::cbm::SawtoothModule</name>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1SawtoothModule_1a10401be0fd33d6b757e36468d39a2191" kind="variable"><name>environmentDataBaseYear</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1SawtoothModule_1ae964911082e85a4edcc0c54948062ad1" kind="variable"><name>environmentData</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1SawtoothModule_1ad4cb20a79cf2632b5c2c474bbb31c3be" kind="variable"><name>Sawtooth_Max_Density</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1SawtoothModule_1a3587a710956beb3d42b9a4c6a0aa3acd" kind="variable"><name>generator</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1SawtoothModule_1a4cf412792b929d1482d9c62c9411895b" kind="variable"><name>sawtooth_error</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1SawtoothModule_1afb8e7d97af7b8f5f41214539e48ffe1c" kind="variable"><name>spatialVar</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1SawtoothModule_1aa6dee7febd9b9d4858224215185b2a94" kind="variable"><name>cbmVariables</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1SawtoothModule_1afff8b3a13f3a32ad7cc0a9a44cb99ef5" kind="variable"><name>standLevelResult</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1SawtoothModule_1a57c4778d23a9c16f3185a9a40b9ae59a" kind="variable"><name>cbmResult</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1SawtoothModule_1a9a0999e56e23d09046b0b4a7fccea1c2" kind="variable"><name>annualProcess</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1SawtoothModule_1a459a15a61ee3b386188e379a2d718b8c" kind="variable"><name>WasDisturbed</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1SawtoothModule_1a8de4b77f5756bd320aecf0995509df0c" kind="variable"><name>PlotId</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1SawtoothModule_1a3c18c8e44215c7321cab25f528075260" kind="variable"><name>RCP_Id</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1SawtoothModule_1a29e443039cc87913ada62bb79921c019" kind="variable"><name>GCM_Id</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1SawtoothModule_1a9c6e71f99c34c1e4eaa3da0d2763d542" kind="variable"><name>bioPools</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1SawtoothModule_1a1bb1bf1d882b3d78e3d467f6a664ead8" kind="variable"><name>speciesList</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1SawtoothModule_1a90eb726f561e1d372878a5450ee5fe22" kind="variable"><name>tmean_ann_mat</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1SawtoothModule_1aa10f26728d3fdb3659d3df1dd8b3714a" kind="variable"><name>tmin_ann_mat</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1SawtoothModule_1a81dad38f389912b8ab73a49ed2a7b571" kind="variable"><name>tmean_gs_mat</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1SawtoothModule_1a3ad11792cdf02573c2e914a769014efa" kind="variable"><name>vpd_mat</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1SawtoothModule_1a2311ba412ffff8198800889d6e3dade8" kind="variable"><name>etp_gs_mat</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1SawtoothModule_1a29f426d87fd06db51971753d8a133957" kind="variable"><name>eeq_mat</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1SawtoothModule_1a8da0d8466ca0d65885087f964419285c" kind="variable"><name>ws_gs_mat</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1SawtoothModule_1a66ec943d6059d9909ad0b1a6e95e321a" kind="variable"><name>ca_mat</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1SawtoothModule_1a85f57f7c3539e1d56f039231403f9129" kind="variable"><name>ndep_mat</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1SawtoothModule_1a9fe1cb82724c36231dc3f8faa0ed9192" kind="variable"><name>ws_gs_z_mat</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1SawtoothModule_1a39b7d97937fe278fb3f0cf10e4698a9c" kind="variable"><name>ws_gs_n_mat</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1SawtoothModule_1a2dce0f2b05844b8adc5e67e593b82af9" kind="variable"><name>etp_gs_z_mat</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1SawtoothModule_1a5737909e23ee9ea254f940021542e16f" kind="variable"><name>etp_gs_n_mat</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1SawtoothModule_1aab922ffefa3a3dfde1c924a5ed27183e" kind="variable"><name>disturbance_mat</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1SawtoothModule_1a2bc8df1c5085effbfb6e9c29af8d0dd9" kind="variable"><name>slope_mat</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1SawtoothModule_1a6e59e22c1ad759250e4bbfbf15dbfe7b" kind="variable"><name>twi_mat</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1SawtoothModule_1a30b9d6f232b5be58d3d8b96c47fb224a" kind="variable"><name>aspect_mat</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1SawtoothModule_1a949b1936b91279d02e474008408c85dd" kind="variable"><name>MeanAge_mat</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1SawtoothModule_1a119aa11755dfa1be42ca9217b64609ea" kind="variable"><name>MeanHeight_mat</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1SawtoothModule_1a3a19689582155613354a8a75b89b96cd" kind="variable"><name>StandDensity_mat</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1SawtoothModule_1a62bbf6d6d162023f53cffe2304fec190" kind="variable"><name>TotalBiomassCarbon_mat</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1SawtoothModule_1afefbd3dd191878de66c10e9d9362a5d7" kind="variable"><name>TotalBiomassCarbonGrowth_mat</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1SawtoothModule_1a5396bd89d19366ab252b24051fb56400" kind="variable"><name>MeanBiomassCarbon_mat</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1SawtoothModule_1ad4cee4ebdeb5b714ddea0a1381545b24" kind="variable"><name>RecruitmentRate_mat</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1SawtoothModule_1abfee270a4a7d061167265f228d83744c" kind="variable"><name>MortalityRate_mat</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1SawtoothModule_1a1be9b1a462e28e1da9bafb65c5c31dd2" kind="variable"><name>MortalityCarbon_mat</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1SawtoothModule_1a461b6e0f7077288f8966738652794c73" kind="variable"><name>DisturbanceType_mat</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1SawtoothModule_1a16b9b9d91c0b9e2336c2d8f5f5c88a5f" kind="variable"><name>DisturbanceMortalityRate_mat</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1SawtoothModule_1ae0f20e44d85b7c39864dc3b4bcebd2a2" kind="variable"><name>DisturbanceMortalityCarbon_mat</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1SawtoothModule_1a08beb82b1aae4d5abbe5bb02c099d14b" kind="variable"><name>StumpParmeterId_mat</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1SawtoothModule_1a394caa0ae91a078e3485395703e0d5ae" kind="variable"><name>RootParameterId_mat</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1SawtoothModule_1a4eb6121ad651817e5a0fcc0e07aaf9f1" kind="variable"><name>TurnoverParameterId_mat</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1SawtoothModule_1ae9d8c89f65e7c58fc1db0ea128016852" kind="variable"><name>RegionId_mat</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1SawtoothModule_1a73fda9a963577444be1d6ea885df5359" kind="variable"><name>_softwoodMerch</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1SawtoothModule_1a4b776d93d5f29b12578d9ac675dddf16" kind="variable"><name>_softwoodOther</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1SawtoothModule_1a89cdd527ffa7e8613679d833d24ba1c4" kind="variable"><name>_softwoodFoliage</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1SawtoothModule_1a9a0dc2a27f5cdfbd010705a11b6b26db" kind="variable"><name>_softwoodCoarseRoots</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1SawtoothModule_1af94b0c6b008c6fcfd1a08c43ded3c3fd" kind="variable"><name>_softwoodFineRoots</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1SawtoothModule_1aa92b53f1040b31bd1b4d870899ce2ca5" kind="variable"><name>_hardwoodMerch</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1SawtoothModule_1a9a7cbac725b0b097c4cacfc8b2a129b8" kind="variable"><name>_hardwoodOther</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1SawtoothModule_1acee0d85be161cdd2dcc1575975709c18" kind="variable"><name>_hardwoodFoliage</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1SawtoothModule_1a7728db25f7d0a67df7f61730a35164ce" kind="variable"><name>_hardwoodCoarseRoots</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1SawtoothModule_1aa28600196c300d43f2b5788fe5bbd9e2" kind="variable"><name>_hardwoodFineRoots</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1SawtoothModule_1a652a30445622c681a2e8c07e50ec90c8" kind="variable"><name>_aboveGroundVeryFastSoil</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1SawtoothModule_1a34ae123715aa55bfd0df5e3b317a526b" kind="variable"><name>_aboveGroundFastSoil</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1SawtoothModule_1a5aa2ec80e506eb2ec975bbc40d7beb56" kind="variable"><name>_belowGroundVeryFastSoil</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1SawtoothModule_1a4a6a1a36160452c2a592758a941d434e" kind="variable"><name>_belowGroundFastSoil</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1SawtoothModule_1a6b21336be4816b7d541c2434b353a024" kind="variable"><name>_softwoodStemSnag</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1SawtoothModule_1a61626d20ccd71ccffa0ddbe543d6f2e2" kind="variable"><name>_softwoodBranchSnag</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1SawtoothModule_1af763d9c82f1fe89d02d16bd33183c46d" kind="variable"><name>_hardwoodStemSnag</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1SawtoothModule_1a4f7b55f39e82c47882126a798162b74e" kind="variable"><name>_hardwoodBranchSnag</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1SawtoothModule_1a1384c503b652f3067cdce1a4752bd811" kind="variable"><name>_mediumSoil</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1SawtoothModule_1a31c832b6aa70ab4c880185dd06440228" kind="variable"><name>_atmosphere</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1SawtoothModule_1a288ba2e2a55298302c348196fdc75cd8" kind="variable"><name>_age</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1SawtoothModule_1a8842f623c4834075db27162979d95174" kind="variable"><name>_turnoverRates</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1SawtoothModule_1af4a2d73bc8bbadb2a6249ec59987a26e" kind="variable"><name>_regenDelay</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1SawtoothModule_1a37afa641144f3cf0874f95648891ae27" kind="variable"><name>_isForest</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1SawtoothModule_1ad0f7b4cb2c11f2fc82f328592df725ad" kind="variable"><name>_standSPUID</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1SawtoothModule_1a25edaa28c3f64938fc029d29905088d2" kind="variable"><name>_softwoodFoliageFallRate</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1SawtoothModule_1aecd1395f4252082cac1e3fddcce453eb" kind="variable"><name>_hardwoodFoliageFallRate</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1SawtoothModule_1a82be8c8916b4612599017e8e41fc8ec9" kind="variable"><name>_stemAnnualTurnOverRate</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1SawtoothModule_1a57004565258f3275f64dca82bed0e967" kind="variable"><name>_softwoodBranchTurnOverRate</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1SawtoothModule_1a2379a2e3c72347c2d61f903c4ad26c29" kind="variable"><name>_hardwoodBranchTurnOverRate</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1SawtoothModule_1a1f836c71d9130b62308b235ed7a43b80" kind="variable"><name>_otherToBranchSnagSplit</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1SawtoothModule_1a711a6814a3e623e4def88158e109d86b" kind="variable"><name>_stemSnagTurnoverRate</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1SawtoothModule_1a630239af6c6c898e4f1185a7a3ff9273" kind="variable"><name>_branchSnagTurnoverRate</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1SawtoothModule_1aa76f90f3ef8cb644a503f0e8eb66c9a4" kind="variable"><name>_coarseRootSplit</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1SawtoothModule_1aa0f2c55acbc0e147d36e2d2fd0bd64ff" kind="variable"><name>_coarseRootTurnProp</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1SawtoothModule_1a8abca2ee6a6cb48b484bd4a20f512408" kind="variable"><name>_fineRootAGSplit</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1SawtoothModule_1a3f63012bdfad02ee585c70ce54f266fe" kind="variable"><name>_fineRootTurnProp</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1SawtoothModule_1afdeb07cb92000ec4f5c53b0bc1809d0f" kind="function"><name>SawtoothModule</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1SawtoothModule_1a353700d75ae5af3ec772b85272b99b15" kind="function"><name>~SawtoothModule</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1SawtoothModule_1a8e61a518a587bf5dd73571c112b23e46" kind="function"><name>configure</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1SawtoothModule_1ac0a652d7fd514484aa74d3414acb704d" kind="function"><name>subscribe</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1SawtoothModule_1a52f3a5680a093913b1b16a149a8c9691" kind="function"><name>doLocalDomainInit</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1SawtoothModule_1a00eaecef1d13bb30fe8fc63f68a68f64" kind="function"><name>doTimingInit</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1SawtoothModule_1ad889c60334b0d6acf0797321f79dfd95" kind="function"><name>doTimingStep</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1SawtoothModule_1ae153e3a5c92023839a34b6111aacdbf5" kind="function"><name>doTimingShutdown</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1SawtoothModule_1a1d1f2a650cfc246633ef5a6896867469" kind="function"><name>doSystemShutdown</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1SawtoothModule_1a155d87923469931220e7ddc640df9cd1" kind="function"><name>onDisturbanceEvent</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1SawtoothModule_1a2c86e94d61219a3607cb5c88f8c867ec" kind="function"><name>GetSiteData</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1SawtoothModule_1aff19f48047cb5316a5f27cac32a7756b" kind="function"><name>GetEnvironmentData</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1SawtoothModule_1a07bfbab5c3b649dba23ff9da8d41c673" kind="function"><name>LoadEnvironmentData</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1SawtoothModule_1a88a5dff77dac02513cecfbe5a103d3e4" kind="function"><name>Step</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1SawtoothModule_1ab649c91008684dc9bff5b713af11c09a" kind="function"><name>shouldRun</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1SawtoothModule_1add276bc79a8b9eeacff4b6523e8f1a90" kind="function"><name>InitializeModelMeta</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1SawtoothModule_1a28133a655ef564922df6c7a4b6956525" kind="function"><name>AllocateSpecies</name></member>
+    <member refid="classmoja_1_1modules_1_1cbm_1_1SawtoothModule_1a746a150eead81731a63ffa4dd25e72e4" kind="function"><name>SawtoothModule::adjustPartialMatrix</name></member>
+  </compound>
+  <compound refid="structmoja_1_1modules_1_1cbm_1_1Site__data" kind="struct"><name>moja::modules::cbm::Site_data</name>
+    <member refid="structmoja_1_1modules_1_1cbm_1_1Site__data_1ab4475c31a4008548b8fccc2492547d94" kind="variable"><name>ID_Spc1</name></member>
+    <member refid="structmoja_1_1modules_1_1cbm_1_1Site__data_1a6d1b21b494451a3dcd3b378d8ee4cb05" kind="variable"><name>ID_Spc2</name></member>
+    <member refid="structmoja_1_1modules_1_1cbm_1_1Site__data_1a5ba18feb14023dffdb308abfa9c828a6" kind="variable"><name>ID_Spc3</name></member>
+    <member refid="structmoja_1_1modules_1_1cbm_1_1Site__data_1af7d769e54b0f86b518f8523ecdabc0ae" kind="variable"><name>ID_Spc4</name></member>
+    <member refid="structmoja_1_1modules_1_1cbm_1_1Site__data_1ae14f7ba642ee446b935b90fb7fb7d37f" kind="variable"><name>Frac_Spc1</name></member>
+    <member refid="structmoja_1_1modules_1_1cbm_1_1Site__data_1ae24ec0ed052fd12260b796c23be7a418" kind="variable"><name>Frac_Spc2</name></member>
+    <member refid="structmoja_1_1modules_1_1cbm_1_1Site__data_1a48ccea7a88f4286f57025dfa113a721c" kind="variable"><name>Frac_Spc3</name></member>
+    <member refid="structmoja_1_1modules_1_1cbm_1_1Site__data_1a318605395ea17b7bb4de0ec6670c5f28" kind="variable"><name>Frac_Spc4</name></member>
+    <member refid="structmoja_1_1modules_1_1cbm_1_1Site__data_1acb8872088086ec910d03769fb9b93552" kind="variable"><name>Slope</name></member>
+    <member refid="structmoja_1_1modules_1_1cbm_1_1Site__data_1a3e9b079d7f25a9e200f1ffdaa3c2bb9e" kind="variable"><name>Aspect</name></member>
+    <member refid="structmoja_1_1modules_1_1cbm_1_1Site__data_1a8863dd6366eb2811a48ceab090097ec1" kind="variable"><name>TWI</name></member>
+  </compound>
   <compound refid="classmoja_1_1modules_1_1cbm_1_1SmallTreeGrowthCurve" kind="class"><name>moja::modules::cbm::SmallTreeGrowthCurve</name>
     <member refid="classmoja_1_1modules_1_1cbm_1_1SmallTreeGrowthCurve_1a19a708a9e61e8da4829032081d96e778" kind="variable"><name>maxAge</name></member>
     <member refid="classmoja_1_1modules_1_1cbm_1_1SmallTreeGrowthCurve_1ac3c0f9b9ba9e6613b95c45e1f19d25d9" kind="variable"><name>a_bio</name></member>
@@ -2854,17 +2995,17 @@
   <compound refid="namespacemoja_1_1flint" kind="namespace"><name>moja::flint</name>
   </compound>
   <compound refid="namespacemoja_1_1modules" kind="namespace"><name>moja::modules</name>
-    <member refid="libraryfactory_8cpp_1af35b4fda16d2851eb222c7e82153d10a" kind="variable"><name>cbmObjectHolder</name></member>
-    <member refid="libraryfactory_8cpp_1acc347d3ada9f99f6e7c5a52f7fdb358f" kind="function"><name>CreateCBMAggregatorLandUnitData</name></member>
-    <member refid="libraryfactory_8cpp_1acda1acbaf04a46712c299750a88a8ff5" kind="function"><name>CreateCBMAggregatorSQLiteWriter</name></member>
-    <member refid="libraryfactory_8cpp_1a1a1b98d3fdffd42ec905417d524a3177" kind="function"><name>CreateCBMFlatAggregatorLandUnitData</name></member>
-    <member refid="libraryfactory_8cpp_1a3015c60cac3d5745f0f9ef42031a3c85" kind="function"><name>CreateCBMAggregatorCsvWriter</name></member>
-    <member refid="libraryfactory_8cpp_1ae2f062c9759954f52e3b3426dbfc337d" kind="function"><name>CreateCBMAggregatorPostgreSQLWriter</name></member>
-    <member refid="libraryfactory_8cpp_1af667e7c4316562811c9f56180e04d98e" kind="function"><name>CreateCBMAggregatorLibPQXXWriter</name></member>
-    <member refid="libraryfactory_8cpp_1a2d71e45896d586e5767dadef1fd40810" kind="function"><name>getModuleRegistrations</name></member>
-    <member refid="libraryfactory_8cpp_1a9b6d13f93007ac9b7b594de0bf31ee06" kind="function"><name>getTransformRegistrations</name></member>
-    <member refid="libraryfactory_8cpp_1a1be8398fbf2a7e40b37cfbbae3604d4e" kind="function"><name>getFlintDataRegistrations</name></member>
-    <member refid="libraryfactory_8h_1a0effb7742404269171b08f612ba2a577" kind="function"><name>getTransformRegistrations</name></member>
+    <member refid="moja_8modules_8cbm_2src_2libraryfactory_8cpp_1af35b4fda16d2851eb222c7e82153d10a" kind="variable"><name>cbmObjectHolder</name></member>
+    <member refid="moja_8modules_8cbm_2src_2libraryfactory_8cpp_1acc347d3ada9f99f6e7c5a52f7fdb358f" kind="function"><name>CreateCBMAggregatorLandUnitData</name></member>
+    <member refid="moja_8modules_8cbm_2src_2libraryfactory_8cpp_1acda1acbaf04a46712c299750a88a8ff5" kind="function"><name>CreateCBMAggregatorSQLiteWriter</name></member>
+    <member refid="moja_8modules_8cbm_2src_2libraryfactory_8cpp_1a1a1b98d3fdffd42ec905417d524a3177" kind="function"><name>CreateCBMFlatAggregatorLandUnitData</name></member>
+    <member refid="moja_8modules_8cbm_2src_2libraryfactory_8cpp_1a3015c60cac3d5745f0f9ef42031a3c85" kind="function"><name>CreateCBMAggregatorCsvWriter</name></member>
+    <member refid="moja_8modules_8cbm_2src_2libraryfactory_8cpp_1ae2f062c9759954f52e3b3426dbfc337d" kind="function"><name>CreateCBMAggregatorPostgreSQLWriter</name></member>
+    <member refid="moja_8modules_8cbm_2src_2libraryfactory_8cpp_1af667e7c4316562811c9f56180e04d98e" kind="function"><name>CreateCBMAggregatorLibPQXXWriter</name></member>
+    <member refid="moja_8modules_8cbm_2src_2libraryfactory_8cpp_1a2d71e45896d586e5767dadef1fd40810" kind="function"><name>getModuleRegistrations</name></member>
+    <member refid="moja_8modules_8cbm_2src_2libraryfactory_8cpp_1a6547ab4c56a6d603b3df7c1027fe18b2" kind="function"><name>getTransformRegistrations</name></member>
+    <member refid="moja_8modules_8cbm_2src_2libraryfactory_8cpp_1a1be8398fbf2a7e40b37cfbbae3604d4e" kind="function"><name>getFlintDataRegistrations</name></member>
+    <member refid="moja_8modules_8cbm_2include_2moja_2modules_2cbm_2libraryfactory_8h_1aca84f60e65df3287ca7d437be6ab14f2" kind="function"><name>getTransformRegistrations</name></member>
   </compound>
   <compound refid="namespacemoja_1_1modules_1_1cbm" kind="namespace"><name>moja::modules::cbm</name>
     <member refid="cbmdisturbancelistener_8h_1a75cd2db41ba2e1693dc295b126f48082" kind="enum"><name>DisturbanceConditionType</name></member>
@@ -2955,6 +3096,8 @@
     <member refid="record_8h_1ae8491798e65ef6d6cbda92a119caf933" kind="typedef"><name>StdAgeClassRow</name></member>
     <member refid="lmmin_8cpp_1a0393002c86a13f5f78aa5fdd09969818" kind="variable"><name>lm_infmsg</name></member>
     <member refid="lmmin_8cpp_1a1d7332f1bca8ce15684e9539cc883d92" kind="variable"><name>lm_shortmsg</name></member>
+    <member refid="sawtoothmodule_8cpp_1a37f333ed84dcc85abba9d021f071ab39" kind="variable"><name>Sawtooth_Handle</name></member>
+    <member refid="sawtoothmodule_8cpp_1a39edccd58cfdd13648a0eeb2ac2fcfc6" kind="variable"><name>Sawtooth_Stand_Handle</name></member>
     <member refid="timeseriesutils_8h_1a1a58009b80a7df3167de9579fcbbea02" kind="function"><name>convertDynamicObjectToTimeSeries</name></member>
     <member refid="timeseriesutils_8h_1a5520748064e94b232413bdde09a867de" kind="function"><name>convertDynamicToTimeSeries</name></member>
     <member refid="timeseriesutils_8h_1aae7a6e7bf781cb878cae58c49b1f8a2e" kind="function"><name>convertTimeSeriesToDynamic</name></member>
@@ -3037,7 +3180,9 @@
   </compound>
   <compound refid="helper_8h" kind="file"><name>helper.h</name>
   </compound>
-  <compound refid="libraryfactory_8h" kind="file"><name>libraryfactory.h</name>
+  <compound refid="moja_8modules_8cbm_2include_2moja_2modules_2cbm_2libraryfactory_8h" kind="file"><name>libraryfactory.h</name>
+  </compound>
+  <compound refid="moja_8modules_8sawtooth_2include_2moja_2modules_2sawtooth_2libraryfactory_8h" kind="file"><name>libraryfactory.h</name>
   </compound>
   <compound refid="lmeval_8h" kind="file"><name>lmeval.h</name>
   </compound>
@@ -3203,7 +3348,9 @@
   </compound>
   <compound refid="growthmultipliermodule_8cpp" kind="file"><name>growthmultipliermodule.cpp</name>
   </compound>
-  <compound refid="libraryfactory_8cpp" kind="file"><name>libraryfactory.cpp</name>
+  <compound refid="moja_8modules_8cbm_2src_2libraryfactory_8cpp" kind="file"><name>libraryfactory.cpp</name>
+  </compound>
+  <compound refid="moja_8modules_8sawtooth_2src_2libraryfactory_8cpp" kind="file"><name>libraryfactory.cpp</name>
   </compound>
   <compound refid="lmeval_8cpp" kind="file"><name>lmeval.cpp</name>
   </compound>
@@ -3308,14 +3455,32 @@
   </compound>
   <compound refid="yieldtablegrowthmodule_8cpp" kind="file"><name>yieldtablegrowthmodule.cpp</name>
   </compound>
-  <compound refid="dir_cec9fdac9f58e32d8b52d90c13b83713" kind="dir"><name>/mnt/e/moja.canada/Source/moja.modules.cbm/include/moja/modules/cbm</name>
+  <compound refid="sawtoothmodule_8h" kind="file"><name>sawtoothmodule.h</name>
   </compound>
-  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>/mnt/e/moja.canada/Source/moja.modules.cbm/include</name>
+  <compound refid="sawtoothmodule_8cpp" kind="file"><name>sawtoothmodule.cpp</name>
   </compound>
-  <compound refid="dir_d4fa436e3020cfa74b0225060b02303e" kind="dir"><name>/mnt/e/moja.canada/Source/moja.modules.cbm/include/moja/modules</name>
+  <compound refid="dir_9f5571b0658b2c5a99a2170cf7da3c09" kind="dir"><name>/mnt/e/moja.canada/Source/moja.modules.cbm/include/moja/modules/cbm</name>
   </compound>
-  <compound refid="dir_7836f7737f2f370551f5c9785cca2f78" kind="dir"><name>/mnt/e/moja.canada/Source/moja.modules.cbm/include/moja</name>
+  <compound refid="dir_052f6961cb8c1585d4ab0b3eb27b570c" kind="dir"><name>/mnt/e/moja.canada/Source/moja.modules.cbm/include</name>
   </compound>
-  <compound refid="dir_68267d1309a1af8e8297ef4c3efbcdba" kind="dir"><name>/mnt/e/moja.canada/Source/moja.modules.cbm/src</name>
+  <compound refid="dir_628b7237cd1cc0c9a9a5ef43e6f63d52" kind="dir"><name>/mnt/e/moja.canada/Source/moja.modules.sawtooth/include</name>
+  </compound>
+  <compound refid="dir_3a24d2e63e247184420fa99057d469e5" kind="dir"><name>/mnt/e/moja.canada/Source/moja.modules.cbm/include/moja/modules</name>
+  </compound>
+  <compound refid="dir_6ebffd0e30885ca5161f6ec8b3f28dc9" kind="dir"><name>/mnt/e/moja.canada/Source/moja.modules.sawtooth/include/moja/modules</name>
+  </compound>
+  <compound refid="dir_afa8157084c972d0c269deb482fb4f3c" kind="dir"><name>/mnt/e/moja.canada/Source/moja.modules.cbm/include/moja</name>
+  </compound>
+  <compound refid="dir_34c2eb8dcb2584db272b4d91d93679aa" kind="dir"><name>/mnt/e/moja.canada/Source/moja.modules.sawtooth/include/moja</name>
+  </compound>
+  <compound refid="dir_a830aeb1d0dc116c6f4cffab9c22cfdf" kind="dir"><name>/mnt/e/moja.canada/Source/moja.modules.cbm</name>
+  </compound>
+  <compound refid="dir_abc0d37662981f18546425c40ee4d34f" kind="dir"><name>/mnt/e/moja.canada/Source/moja.modules.sawtooth</name>
+  </compound>
+  <compound refid="dir_71ad501b21b842e9b9f7dce3fe4dff6c" kind="dir"><name>/mnt/e/moja.canada/Source/moja.modules.sawtooth/include/moja/modules/sawtooth</name>
+  </compound>
+  <compound refid="dir_5ccd4db583f21ad5e2c743612f37a224" kind="dir"><name>/mnt/e/moja.canada/Source/moja.modules.cbm/src</name>
+  </compound>
+  <compound refid="dir_4c8c49e9547b4fa1ab222652abe00e91" kind="dir"><name>/mnt/e/moja.canada/Source/moja.modules.sawtooth/src</name>
   </compound>
 </doxygenindex>

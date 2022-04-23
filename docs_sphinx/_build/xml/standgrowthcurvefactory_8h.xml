@@ -6,7 +6,7 @@
     <includes local="yes">moja/flint/modulebase.h</includes>
     <includes refid="standgrowthcurve_8h" local="yes">moja/modules/cbm/standgrowthcurve.h</includes>
     <includes local="no">Poco/LRUCache.h</includes>
-    <includedby refid="libraryfactory_8cpp" local="yes">/mnt/e/moja.canada/Source/moja.modules.cbm/src/libraryfactory.cpp</includedby>
+    <includedby refid="moja_8modules_8cbm_2src_2libraryfactory_8cpp" local="yes">/mnt/e/moja.canada/Source/moja.modules.cbm/src/libraryfactory.cpp</includedby>
     <includedby refid="standgrowthcurvefactory_8cpp" local="yes">/mnt/e/moja.canada/Source/moja.modules.cbm/src/standgrowthcurvefactory.cpp</includedby>
     <includedby refid="cbmtransitionrulesmodule_8h" local="yes">/mnt/e/moja.canada/Source/moja.modules.cbm/include/moja/modules/cbm/cbmtransitionrulesmodule.h</includedby>
     <includedby refid="mossdecaymodule_8h" local="yes">/mnt/e/moja.canada/Source/moja.modules.cbm/include/moja/modules/cbm/mossdecaymodule.h</includedby>

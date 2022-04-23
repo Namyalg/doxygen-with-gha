@@ -11,7 +11,7 @@
     <includes refid="standgrowthcurvefactory_8h" local="yes">moja/modules/cbm/standgrowthcurvefactory.h</includes>
     <includes refid="turnoverrates_8h" local="yes">moja/modules/cbm/turnoverrates.h</includes>
     <includes refid="peatlands_8h" local="yes">moja/modules/cbm/peatlands.h</includes>
-    <includedby refid="libraryfactory_8cpp" local="yes">/mnt/e/moja.canada/Source/moja.modules.cbm/src/libraryfactory.cpp</includedby>
+    <includedby refid="moja_8modules_8cbm_2src_2libraryfactory_8cpp" local="yes">/mnt/e/moja.canada/Source/moja.modules.cbm/src/libraryfactory.cpp</includedby>
     <includedby refid="yieldtablegrowthmodule_8cpp" local="yes">/mnt/e/moja.canada/Source/moja.modules.cbm/src/yieldtablegrowthmodule.cpp</includedby>
     <incdepgraph>
       <node id="2">
